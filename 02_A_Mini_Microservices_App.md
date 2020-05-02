@@ -59,6 +59,7 @@
 
 ### 04. Testing the Posts Service
 
+<br/>
 
     $ curl \
     --request POST http://localhost:4000/posts/ \
@@ -96,6 +97,25 @@
 
     $ cd comments
     $ npm run start
+
+<br/>
+
+### 06. Quick Comments Test
+
+<br/>
+
+    $ curl \
+    --data '{"content":"I am a comment"}' \
+    --header "Content-Type: application/json" \
+    --request POST http://localhost:4001/posts/123/comments \
+    | python -m json.tool
+
+<br/>
+
+    $ curl \
+    --request GET http://localhost:4001/posts/123/comments \
+    --header "Content-Type: application/json" \
+    | python -m json.tool
 
 ---
 
