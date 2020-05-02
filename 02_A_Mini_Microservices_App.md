@@ -6,10 +6,10 @@
 
 ![Application](/img/pic-02-01.png?raw=true)
 
-
 <br/>
 
 ![Application](/img/pic-02-02.png?raw=true)
+
 
 <br/>
 
@@ -22,6 +22,8 @@
     $ npx create-react-app client
 
 <br/>
+
+    $ cd app
 
     $ mkdir posts
     $ cd posts
@@ -40,7 +42,20 @@
     $ npm install --save express cors axios
 
 
+<br/>
 
+### 03. Posts Service Creation
+
+<br/>
+
+![Application](/img/pic-02-03.png?raw=true)
+
+<br/>
+
+    $ cd posts
+    $ npm run start
+
+<br/>
 
 
 
