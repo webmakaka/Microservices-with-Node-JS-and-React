@@ -72,6 +72,31 @@
     --header "Content-Type: application/json" \
     | python -m json.tool
 
+
+<br/>
+
+### 05. Implementing a Comments Service
+
+<br/>
+
+![Application](/img/pic-02-04.png?raw=true)
+
+
+<br/>
+
+    $ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+<br/>
+
+**to solve issue:**
+
+```
+[nodemon] Internal watch failed: ENOSPC: System limit for number of file watchers reached, watch ***
+```
+
+    $ cd comments
+    $ npm run start
+
 ---
 
 <br/>

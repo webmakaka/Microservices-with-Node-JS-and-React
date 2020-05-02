@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 const posts = {};
 
 app.get('/posts', (req, res) => {
-    res.send(posts);
+    return res.send(posts);
 });
 
 app.post('/posts', (req, res) => {
@@ -19,7 +19,7 @@ app.post('/posts', (req, res) => {
         id, title
     };
 
-    res.status(201).send(posts[id]);
+    return res.status(201).send(posts[id]);
 });
 
 app.listen(4000, () => {
