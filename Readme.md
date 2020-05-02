@@ -15,9 +15,10 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ---
 
+<br/>
+
+
 **Marley**
 
-<a href="https://jsdev.org">jsdev.org</a>
-
-Any questions on eng: https://t.me/jsdev_org  
-Любые вопросы на русском: https://t.me/jsdev_ru
+Any questions on eng: https://jsdev.org/chat/  
+Любые вопросы на русском: https://jsdev.ru/chat/
