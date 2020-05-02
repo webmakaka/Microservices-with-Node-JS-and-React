@@ -9,6 +9,9 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 <br/>
 
+### [02. A Mini-Microservices App](./02_A_Mini_Microservices_App.md)
+
+<br/>
 
 ---
 
