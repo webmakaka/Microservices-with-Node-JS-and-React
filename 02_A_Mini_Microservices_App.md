@@ -117,6 +117,26 @@
     --header "Content-Type: application/json" \
     | python -m json.tool
 
+
+<br/>
+
+### 08. React Project Setup
+
+<br/>
+
+![Application](/img/pic-02-05.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-02-06.png?raw=true)
+
+<br/>
+
+    $ cd client
+
+    $ npm install --save axios
+    $ npm start
+
 ---
 
 <br/>
