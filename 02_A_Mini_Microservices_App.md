@@ -151,6 +151,13 @@
 
 ### 10. Handling CORS Errors
 
+<br/>
+
+### 11. Fetching and Rendering Posts
+
+<br/>
+
+![Application](/img/pic-02-08.png?raw=true)
 
 ---
 
