@@ -10,24 +10,25 @@ app.use(cors());
 const commentsByPostId = {};
 
 app.get('/posts/:id/comments', (req, res) => {
-    return res.send(commentsByPostId[req.params.id] || []);
+  return res.send(commentsByPostId[req.params.id] || []);
 });
 
 app.post('/posts/:id/comments', (req, res) => {
-    const commentId = randomBytes(4).toString('hex');
-    const { content } = req.body;
+  const commentId = randomBytes(4).toString('hex');
+  const { content } = req.body;
 
-    const comments = commentsByPostId[req.params.id] || [];
+  const comments = commentsByPostId[req.params.id] || [];
 
-    comments.push({
-        id: commentId, content
-    });
+  comments.push({
+    id: commentId,
+    content,
+  });
 
-    commentsByPostId[req.params.id] = comments;
+  commentsByPostId[req.params.id] = comments;
 
-    return res.status(201).send(comments);
+  return res.status(201).send(comments);
 });
 
 app.listen(4001, () => {
-    console.log('Listenig on 4001');
+  console.log('Listenig on 4001');
 });
