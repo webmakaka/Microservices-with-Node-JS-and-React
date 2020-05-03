@@ -219,6 +219,25 @@
 
 ### 22. Receiving Events
 
+<br/>
+
+![Application](/img/pic-02-13.png?raw=true)
+
+<br/>
+
+### 23. Creating the Data Query Service
+
+    $ cd app
+    $ mkdir query
+    $ cd query
+
+    $ npm init -y
+    $ npm install --save express cors
+
+<br/>
+
+    $ npm run start
+
 ---
 
 <br/>
