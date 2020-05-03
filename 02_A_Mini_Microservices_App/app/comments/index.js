@@ -27,7 +27,7 @@ app.post('/posts/:id/comments', async (req, res) => {
 
   commentsByPostId[req.params.id] = comments;
 
-  await axios.post('http://localhost:40005/events', {
+  await axios.post('http://localhost:4005/events', {
     type: 'CommentCreated',
     data: {
       id: commentId,
@@ -37,6 +37,12 @@ app.post('/posts/:id/comments', async (req, res) => {
   });
 
   return res.status(201).send(comments);
+});
+
+app.post('/events', (req, res) => {
+  console.log('Event Received', req.body.type);
+
+  return res.send({});
 });
 
 app.listen(4001, () => {

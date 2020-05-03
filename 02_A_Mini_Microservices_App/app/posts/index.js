@@ -34,6 +34,12 @@ app.post('/posts', async (req, res) => {
   return res.status(201).send(posts[id]);
 });
 
+app.post('/events', (req, res) => {
+  console.log('Event Received', req.body.type);
+
+  return res.send({});
+});
+
 app.listen(4000, () => {
   console.log('Listenig on 4000');
 });

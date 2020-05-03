@@ -215,6 +215,10 @@
 
 ### 21. Emitting Comment Creation Events
 
+<br/>
+
+### 22. Receiving Events
+
 ---
 
 <br/>
