@@ -160,6 +160,14 @@
 
 ![Application](/img/pic-02-09.png?raw=true)
 
+<br/>
+
+### 13. Displaying Comments
+
+<br/>
+
+![Application](/img/pic-02-10.png?raw=true)
+
 ---
 
 <br/>
