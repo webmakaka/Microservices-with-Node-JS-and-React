@@ -242,6 +242,10 @@
 
 ### 24. Parsing Incoming Events
 
+<br/>
+
+### 25. Using the Query Service
+
 ---
 
 <br/>
