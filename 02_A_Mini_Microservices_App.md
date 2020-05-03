@@ -146,6 +146,12 @@
 
 ![Application](/img/pic-02-07.png?raw=true)
 
+
+<br/>
+
+### 10. Handling CORS Errors
+
+
 ---
 
 <br/>

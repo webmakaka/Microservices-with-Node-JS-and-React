@@ -6,7 +6,7 @@ export default () => {
 
     const onSubmit = async (event) => {
         event.preventDefault();
-        await axios.port('http://localhost:4000/posts', {
+        await axios.post('http://localhost:4000/posts', {
             title
         });
 
