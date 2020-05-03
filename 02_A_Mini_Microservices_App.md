@@ -168,6 +168,45 @@
 
 ![Application](/img/pic-02-10.png?raw=true)
 
+<br/>
+
+### 15. Request Minimization Strategies
+
+<br/>
+
+### 16. An Async Solution
+
+<br/>
+
+### 17. Common Questions Around Async Events
+
+<br/>
+
+### 18. Event Bus Overview
+
+<br/>
+
+![Application](/img/pic-02-11.png?raw=true)
+
+<br/>
+
+### 19. A Basic Event Bus Implementation
+
+    $ cd app
+    $ mkdir event-bus
+    $ cd event-bus
+
+    $ npm init -y
+    $ npm install --save express axios
+
+<br/>
+
+![Application](/img/pic-02-12.png?raw=true)
+
+<br/>
+
+    $ npm run start
+
 ---
 
 <br/>
