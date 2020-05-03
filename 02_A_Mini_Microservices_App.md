@@ -10,7 +10,6 @@
 
 ![Application](/img/pic-02-02.png?raw=true)
 
-
 <br/>
 
 ### 02. Project Setup
@@ -30,7 +29,7 @@
     $ npm init -y
 
     $ npm install --save express cors axios
-    
+
 <br/>
 
     $ cd app
@@ -40,7 +39,6 @@
     $ npm init -y
 
     $ npm install --save express cors axios
-
 
 <br/>
 
@@ -73,7 +71,6 @@
     --header "Content-Type: application/json" \
     | python -m json.tool
 
-
 <br/>
 
 ### 05. Implementing a Comments Service
@@ -81,7 +78,6 @@
 <br/>
 
 ![Application](/img/pic-02-04.png?raw=true)
-
 
 <br/>
 
@@ -117,7 +113,6 @@
     --header "Content-Type: application/json" \
     | python -m json.tool
 
-
 <br/>
 
 ### 08. React Project Setup
@@ -137,7 +132,6 @@
     $ npm install --save axios
     $ npm start
 
-
 <br/>
 
 ### 09. Building Post Submission
@@ -145,7 +139,6 @@
 <br/>
 
 ![Application](/img/pic-02-07.png?raw=true)
-
 
 <br/>
 
@@ -158,6 +151,14 @@
 <br/>
 
 ![Application](/img/pic-02-08.png?raw=true)
+
+<br/>
+
+### 12. Creating Comments
+
+<br/>
+
+![Application](/img/pic-02-09.png?raw=true)
 
 ---
 
