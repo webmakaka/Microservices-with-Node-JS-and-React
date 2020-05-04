@@ -234,7 +234,7 @@
     $ cd query
 
     $ npm init -y
-    $ npm install --save express cors
+    $ npm install --save express cors axios
 
 <br/>
 
@@ -326,6 +326,34 @@ Comment with text 'orange' has status 'rejected'.
 <br/>
 
 ![Application](/img/pic-02-19.png?raw=true)
+
+<br/>
+
+### 36. Dealing with Missing Events
+
+<br/>
+
+![Application](/img/pic-02-20.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-02-21.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-02-22.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-02-23.png?raw=true)
+
+<br/>
+
+### 37. Implementing Event Sync
+
+<br/>
+
+### 38. Event Syncing in Action
 
 ---
 
