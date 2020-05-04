@@ -319,6 +319,14 @@
 
 Comment with text 'orange' has status 'rejected'.
 
+<br/>
+
+### 35. Rendering Comments by Status
+
+<br/>
+
+![Application](/img/pic-02-19.png?raw=true)
+
 ---
 
 <br/>
