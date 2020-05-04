@@ -227,6 +227,8 @@
 
 ### 23. Creating the Data Query Service
 
+<br/>
+
     $ cd app
     $ mkdir query
     $ cd query
@@ -245,6 +247,77 @@
 <br/>
 
 ### 25. Using the Query Service
+
+<br/>
+
+### 26. Adding a Simple Feature
+
+<br/>
+
+![Application](/img/pic-02-14.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-02-15.png?raw=true)
+
+<br/>
+
+### 27. Issues with Comment Filtering
+
+<br/>
+
+![Application](/img/pic-02-16.png?raw=true)
+
+<br/>
+
+### 28. A Second Approach
+
+<br/>
+
+![Application](/img/pic-02-17.png?raw=true)
+
+<br/>
+
+### 29. How to Handle Resource Updates
+
+<br/>
+
+![Application](/img/pic-02-18.png?raw=true)
+
+<br/>
+
+### 30. Creating the Moderation Service
+
+<br/>
+
+    $ cd app
+    $ mkdir moderation
+    $ cd moderation
+
+    $ npm init -y
+    $ npm install --save express axios
+
+<br/>
+
+    $ npm run start
+
+<br/>
+
+### 31. Adding Comment Moderation
+
+<br/>
+
+### 32. Handling Moderation
+
+<br/>
+
+### 33. Updating Comment Content
+
+<br/>
+
+### 34. A Quick Test
+
+Comment with text 'orange' has status 'rejected'.
 
 ---
 
