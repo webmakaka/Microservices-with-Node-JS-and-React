@@ -28,7 +28,7 @@
 
 <br/>
 
-![Application](/img/pic-04-06.png?raw=true)
+![Application](/img/pic-04-07.png?raw=true)
 
 <br/>
 
@@ -93,22 +93,26 @@ minikube start --profile my-profile
 
 <br/>
 
-    $ kubectl get pods
-    NAME                               READY   STATUS      RESTARTS   AGE
-    client-depl-85df57d697-hrvr8       0/1     Completed   2          34s
-    comments-depl-547864dc5d-r8wm7     1/1     Running     0          15m
-    event-bus-depl-75b5644d4d-lntxg    1/1     Running     0          101s
-    moderation-depl-749d7f798f-95x2n   1/1     Running     0          15m
-    posts-depl-d69765958-t7rhc         1/1     Running     0          15m
-    query-depl-b98c98c55-snrjz         1/1     Running     0          15m
-
-<br/>
-
-Some issue with **client-depl**. I do not know the reason. Possible, on start nodemon server, the container finishes the work.
-
-<br/>
-
 posts.com
+
+Some issue with **CORS** when i try to create a comment. Cant' find solution.
+
+<br/>
+
+```
+Access to XMLHttpRequest at 'http://post.com/posts/3394784f/comments' from origin 'http://posts.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+```
+
+<br/>
+
+    $ kubectl get pods
+    NAME                               READY   STATUS    RESTARTS   AGE
+    client-depl-5454895c86-s2dqn       1/1     Running   0          3m41s
+    comments-depl-547864dc5d-r8wm7     1/1     Running   0          36m
+    event-bus-depl-75b5644d4d-lntxg    1/1     Running   0          22m
+    moderation-depl-749d7f798f-95x2n   1/1     Running   0          36m
+    posts-depl-d69765958-t7rhc         1/1     Running   0          36m
+    query-depl-b98c98c55-snrjz         1/1     Running   0          36m
 
 <!--
     $ kubectl rollout restart deployment [depl_name]
