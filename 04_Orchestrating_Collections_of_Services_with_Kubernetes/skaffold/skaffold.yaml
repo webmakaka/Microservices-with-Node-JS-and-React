@@ -1,0 +1,58 @@
+apiVersion: skaffold/v2alpha3
+kind: Config
+deploy:
+  kubectl:
+    manifests:
+      - ../k8s/*
+build:
+  local:
+    push: true
+  artifacts:
+    - image: webmakaka/grider-ms-client
+      context: ../app/client
+      docker:
+        dockerfile: common.dockerfile
+      sync:
+        manual:
+          - src: 'src/**/*.js'
+            dest: .
+    - image: webmakaka/grider-ms-comments
+      context: ../app/comments
+      docker:
+        dockerfile: common.dockerfile
+      sync:
+        manual:
+          - src: '*.js'
+            dest: .
+    - image: webmakaka/grider-ms-event-bus
+      context: ../app/event-bus
+      docker:
+        dockerfile: common.dockerfile
+      sync:
+        manual:
+          - src: '*.js'
+            dest: .
+    - image: webmakaka/grider-ms-moderation
+      context: ../app/moderation
+      docker:
+        dockerfile: common.dockerfile
+      sync:
+        manual:
+          - src: '*.js'
+            dest: .
+    - image: webmakaka/grider-ms-posts
+      context: ../app/posts
+      docker:
+        dockerfile: common.dockerfile
+      sync:
+        manual:
+          - src: '*.js'
+            dest: .
+    - image: webmakaka/grider-ms-query
+      context: ../app/query
+      docker:
+        dockerfile: common.dockerfile
+      sync:
+        manual:
+          - src: '*.js'
+            dest: .
