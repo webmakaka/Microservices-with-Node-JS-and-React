@@ -2,6 +2,8 @@
 
 # 04. Orchestrating Collections of Services with Kubernetes
 
+**I recommend to use "react-scripts": "3.4.0". With "react-scripts": "3.4.1" there were errors with "client" container starting in minikube.**
+
 <br/>
 
 ![Application](/img/pic-04-01.png?raw=true)
@@ -48,10 +50,10 @@ $ {
 minikube --profile my-profile config set memory 8192
 minikube --profile my-profile config set cpus 4
 
-minikube --profile my-profile config set vm-driver virtualbox
-// minikube --profile my-profile config set vm-driver docker
+// minikube --profile my-profile config set vm-driver virtualbox
+minikube --profile my-profile config set vm-driver docker
 
-minikube --profile my-profile config set kubernetes-version v1.16.9
+minikube --profile my-profile config set kubernetes-version v1.18.2
 minikube start --profile my-profile
 }
 ```
@@ -95,29 +97,12 @@ minikube start --profile my-profile
 
 posts.com
 
-Some issue with **CORS** when i try to create a comment. Cant' find solution.
-
-<br/>
-
-```
-Access to XMLHttpRequest at 'http://post.com/posts/3394784f/comments' from origin 'http://posts.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-```
-
-<br/>
-
-    $ kubectl get pods
-    NAME                               READY   STATUS    RESTARTS   AGE
-    client-depl-5454895c86-s2dqn       1/1     Running   0          3m41s
-    comments-depl-547864dc5d-r8wm7     1/1     Running   0          36m
-    event-bus-depl-75b5644d4d-lntxg    1/1     Running   0          22m
-    moderation-depl-749d7f798f-95x2n   1/1     Running   0          36m
-    posts-depl-d69765958-t7rhc         1/1     Running   0          36m
-    query-depl-b98c98c55-snrjz         1/1     Running   0          36m
-
 <!--
     $ kubectl rollout restart deployment [depl_name]
     $ kubectl get events --sort-by=.metadata.creationTimestamp
 --->
+
+<br/>
 
 ---
 
@@ -125,5 +110,5 @@ Access to XMLHttpRequest at 'http://post.com/posts/3394784f/comments' from origi
 
 **Marley**
 
-Any questions on eng: https://jsdev.org/chat/
+Any questions on eng: https://jsdev.org/chat/  
 Любые вопросы на русском: https://jsdev.ru/chat/
