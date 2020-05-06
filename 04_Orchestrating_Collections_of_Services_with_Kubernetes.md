@@ -2,7 +2,7 @@
 
 # 04. Orchestrating Collections of Services with Kubernetes
 
-**I recommend to use "react-scripts": "3.4.0". With "react-scripts": "3.4.1" there were errors with "client" container starting in minikube.**
+**I recommend to use "react-scripts": "3.4.0". With "react-scripts": "3.4.1" there were errors with starting "client" container in minikube.**
 
 <br/>
 
@@ -71,7 +71,7 @@ minikube start --profile my-profile
 <br/>
 
     $ minikube --profile my-profile ip
-    192.168.99.136
+    172.17.0.2
 
 <br/>
 
@@ -81,7 +81,7 @@ minikube start --profile my-profile
 #---------------------------------------------------------------------
 # Minikube
 #---------------------------------------------------------------------
-192.168.99.136 posts.com
+172.17.0.2 posts.com
 ```
 
 <br/>
@@ -95,7 +95,7 @@ minikube start --profile my-profile
 
 <br/>
 
-posts.com
+browser --> posts.com
 
 <!--
     $ kubectl rollout restart deployment [depl_name]

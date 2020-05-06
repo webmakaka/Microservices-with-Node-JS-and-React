@@ -20,6 +20,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [04. Orchestrating Collections of Services with Kubernetes](./04_Orchestrating_Collections_of_Services_with_Kubernetes.md)
 
+### [05. Architecture of Multi-Service Apps](./05_Architecture_of_Multi_Service_Apps.md)
+
 <br/>
 
 ---
