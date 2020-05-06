@@ -6,6 +6,10 @@
 
 ### 01. Creating Route Handlers
 
+<br/>
+
+### 02. Scaffolding Routes
+
 <!-- <br/>
 
 ![Application](/img/pic-05-01.png?raw=true) -->
