@@ -10,6 +10,13 @@
 
 ### 02. Scaffolding Routes
 
+<br/>
+
+### 03. Adding Validation
+
+    $ cd app/auth
+    $ npm install --save express-validator
+
 <!-- <br/>
 
 ![Application](/img/pic-05-01.png?raw=true) -->
