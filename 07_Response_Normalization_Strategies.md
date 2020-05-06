@@ -4,7 +4,11 @@
 
 <br/>
 
-![Application](/img/pic-05-01.png?raw=true)
+### 01. Creating Route Handlers
+
+<!-- <br/>
+
+![Application](/img/pic-05-01.png?raw=true) -->
 
 <br/>
 
