@@ -62,7 +62,7 @@
 
 <br/>
 
-https://ticketing.dev/api/users/currentuser
+browser --> https://ticketing.dev/api/users/currentuser
 
 <br/>
 

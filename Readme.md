@@ -22,6 +22,12 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [05. Architecture of Multi-Service Apps](./05_Architecture_of_Multi_Service_Apps.md)
 
+### 06. Leveraging a Cloud Environment for Development (Optional Section, Skipped)
+
+### [07. Response Normalization Strategies](./07_Response_Normalization_Strategies.md)
+
+### s
+
 <br/>
 
 ---
