@@ -50,6 +50,64 @@ $ curl \
 
 <br/>
 
+### 06. Surprising Complexity Around Errors
+
+<br/>
+
+### 07. Other Sources of Errors
+
+<br/>
+
+### 08. Solution for Error Handling
+
+<br/>
+
+### 09. Building an Error Handling Middleware
+
+<br/>
+
+### 10. Communicating More Info to the Error Handler
+
+<br/>
+
+### 11. Encoding More Information In an Error
+
+<br/>
+
+### 12. Subclassing for Custom Errors
+
+<br/>
+
+### 13. Determining Error Type
+
+<br/>
+
+### 14. Converting Errors to Responses
+
+<br/>
+
+### 15. Moving Logic Into Errors
+
+<br/>
+
+### 16. Verifying Our Custom Errors
+
+<br/>
+
+### 17. Final Error Related Code
+
+<br/>
+
+### 18. How to Define New Custom Errors
+
+<br/>
+
+### 19. Uh Oh... Async Error Handling
+
+    $ cd app/auth
+    $ npm install --save express-async-errors
+
+<br/>
 
 ---
 
@@ -59,4 +117,3 @@ $ curl \
 
 Any questions on eng: https://jsdev.org/chat/
 Любые вопросы на русском: https://jsdev.ru/chat/
-```
