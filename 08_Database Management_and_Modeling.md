@@ -83,6 +83,10 @@ $ curl \
 
 ```
 
+<br/>
+
+### 11. Proper Error Handling
+
 ---
 
 <br/>
