@@ -80,12 +80,49 @@ $ curl \
     "email": "marley@example.com",
     "password": "123456789"
 }
-
 ```
 
 <br/>
 
 ### 11. Proper Error Handling
+
+<br/>
+
+### 14. Adding Password Hashing
+
+<br/>
+
+### 13. Reminder on Password Hashing
+
+<br/>
+
+### 15. Comparing Hashed Password
+
+<br/>
+
+### 16. Mongoose Pre-Save Hooks
+
+```
+$ curl \
+--data '{"email":"marley1@example.com", "password":"123456789"}' \
+--header "Content-Type: application/json" \
+--request POST http://ticketing.dev/api/users/signup \
+| python -m json.tool
+```
+
+<br/>
+
+**response:**
+
+```
+{
+    "__v": 0,
+    "_id": "5eb4248c1650af0359d5170f",
+    "email": "marley1@example.com",
+    "password": "8229ab93d0751b4cbd0f396fd8e701e36089fff0d0c848d5617e65cee9eb830fc7619135058815873d24a4adcbd1779cff1c8efec79a38647810e5b14f15ae33.ef63680bfb5151ed"
+}
+
+```
 
 ---
 
