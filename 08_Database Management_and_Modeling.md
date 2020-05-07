@@ -25,6 +25,14 @@
 
 <br/>
 
+### 03. Understanding the Signup Flow
+
+<br/>
+
+![Application](/img/pic-08-01.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
