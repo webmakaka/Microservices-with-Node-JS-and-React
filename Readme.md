@@ -28,6 +28,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [08. Database Management and Modeling](./08_Database Management_and_Modeling.md)
 
+### [09. Authentication Strategies and Options](./09_Authentication_Strategies_and_Options.md)
+
 <br/>
 
 ---
