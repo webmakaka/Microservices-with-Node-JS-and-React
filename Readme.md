@@ -26,7 +26,7 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [07. Response Normalization Strategies](./07_Response_Normalization_Strategies.md)
 
-### s
+### [08. Database Management and Modeling](./08_Database Management_and_Modeling.md)
 
 <br/>
 
