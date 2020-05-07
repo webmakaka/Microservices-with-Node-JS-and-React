@@ -18,6 +18,13 @@
 
 <br/>
 
+### 02. Connecting to MongoDB
+
+    $ cd app/auth
+    $ npm install --save @types/mongoose
+
+<br/>
+
 ---
 
 <br/>
