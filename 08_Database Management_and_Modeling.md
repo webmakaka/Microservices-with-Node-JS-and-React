@@ -41,6 +41,48 @@
 
 <br/>
 
+### 06. Type Checking User Properties
+
+<br/>
+
+### 07. Adding Static Properties to a Model
+
+<br/>
+
+### 08. Defining Extra Document Properties
+
+<br/>
+
+### 09. What's That Angle Bracket For
+
+<br/>
+
+### 10. User Creation
+
+<br/>
+
+```
+$ curl \
+--data '{"email":"marley@example.com", "password":"123456789"}' \
+--header "Content-Type: application/json" \
+--request POST http://ticketing.dev/api/users/signup \
+| python -m json.tool
+```
+
+<br/>
+
+**response:**
+
+```
+{
+    "__v": 0,
+    "_id": "5eb40ea00b8b66048cc1564e",
+    "email": "marley@example.com",
+    "password": "123456789"
+}
+
+```
+
 ---
 
 <br/>
