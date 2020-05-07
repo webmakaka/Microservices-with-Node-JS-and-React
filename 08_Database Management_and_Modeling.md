@@ -33,6 +33,14 @@
 
 <br/>
 
+### 04. Getting TypeScript and Mongoose to Cooperate
+
+<br/>
+
+### 05. Creating the User Model
+
+<br/>
+
 ---
 
 <br/>
