@@ -217,6 +217,39 @@ $ curl \
 
 <br/>
 
+### 17. The Signin Flow
+
+<br/>
+
+### 18. Common Request Validation Middleware
+
+<br/>
+
+### 19. Sign In Logic
+
+<br/>
+
+### 20. Quick Sign In Test
+
+```
+$ curl \
+--data '{"email":"marley7@example.com", "password":"123456789"}' \
+--header "Content-Type: application/json" \
+--request POST http://ticketing.dev/api/users/signin \
+| python -m json.tool
+```
+
+**response**
+
+```
+{
+"email": "marley7@example.com",
+"id": "5eb5997b5fcfb902b17eefc6"
+}
+```
+
+<br/>
+
 ---
 
 <br/>
