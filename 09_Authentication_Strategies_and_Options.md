@@ -149,6 +149,8 @@ decode with key: 'asdf'
 
 **resulst:**
 
+<br/>
+
 ```
 {
   "id": "5eb5671c9b463f01a9722945",
@@ -181,6 +183,12 @@ decode with key: 'asdf'
     NAME                  TYPE                                  DATA   AGE
     default-token-dmr6t   kubernetes.io/service-account-token   3      2d9h
     jwt-secret            Opaque                                1      7s
+
+<br/>
+
+### 14. Accessing Env Variables in a Pod
+
+<br/>
 
 ---
 
