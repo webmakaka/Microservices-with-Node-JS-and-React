@@ -190,6 +190,33 @@ decode with key: 'asdf'
 
 <br/>
 
+### 15. Common Response Properties
+
+<br/>
+
+### 16. Formatting JSON Properties
+
+```
+$ curl \
+--data '{"email":"marley7@example.com", "password":"123456789"}' \
+--header "Content-Type: application/json" \
+--request POST http://ticketing.dev/api/users/signup \
+| python -m json.tool
+```
+
+<br/>
+
+**response:**
+
+```
+{
+    "email": "marley7@example.com",
+    "id": "5eb5997b5fcfb902b17eefc6"
+}
+```
+
+<br/>
+
 ---
 
 <br/>
