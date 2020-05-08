@@ -320,6 +320,10 @@ $ curl \
 
 <br/>
 
+### 26. Requiring Auth for Route Access
+
+<br/>
+
 ---
 
 <br/>
