@@ -103,6 +103,25 @@
 
 <br/>
 
+### 10. Generating a JWT
+
+    $ cd app/auth
+    $ npm install --save jsonwebtoken @types/jsonwebtoken
+
+<br/>
+
+```
+$ curl \
+--insecure \
+--cookie-jar /tmp/cookies.txt \
+--data '{"email":"marley6@example.com", "password":"123456789"}' \
+--header "Content-Type: application/json" \
+--request POST https://ticketing.dev/api/users/signup \
+| python -m json.tool
+```
+
+<br/>
+
 ---
 
 <br/>
