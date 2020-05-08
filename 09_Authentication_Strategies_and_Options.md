@@ -281,6 +281,7 @@ $ curl \
 <br/>
 
 ```
+// GET CURRENT USER
 $ curl \
 --insecure \
 --cookie /tmp/cookies.txt \
@@ -304,6 +305,18 @@ $ curl \
 <br/>
 
 ### 23. Signing Out
+
+<br/>
+
+### 24. Creating a Current User Middleware
+
+<br/>
+
+![Application](/img/pic-09-18.png?raw=true)
+
+<br/>
+
+### 25. Augmenting Type Definitions
 
 <br/>
 
