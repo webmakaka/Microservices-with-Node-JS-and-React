@@ -303,6 +303,10 @@ $ curl \
 
 <br/>
 
+### 23. Signing Out
+
+<br/>
+
 ---
 
 <br/>
