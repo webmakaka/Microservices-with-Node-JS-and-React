@@ -122,6 +122,66 @@ $ curl \
 
 <br/>
 
+### 11. JWT Signing Keys
+
+    $ cat /tmp/cookies.txt
+
+```
+
+#HttpOnly_ticketing.dev	FALSE	/	TRUE	0	express:sess	eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcFpDSTZJalZsWWpVMk56RmpPV0kwTmpObU1ERmhPVGN5TWprME5TSXNJbVZ0WVdsc0lqb2liV0Z5YkdWNU5rQmxlR0Z0Y0d4bExtTnZiU0lzSW1saGRDSTZNVFU0T0RrME5qY3hObjAuS3ZzV2NLbVN6VmNlWEhrdFFNNnU3cGtxWlFETVU2NC0tMGlPWTlVcE5mQSJ9
+```
+
+https://www.base64decode.org/
+
+decode
+
+```
+{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlYjU2NzFjOWI0NjNmMDFhOTcyMjk0NSIsImVtYWlsIjoibWFybGV5NkBleGFtcGxlLmNvbSIsImlhdCI6MTU4ODk0NjcxNn0.KvsWcKmSzVceXHktQM6u7pkqZQDMU64--0iOY9UpNfA"}
+```
+
+https://jwt.io/
+
+<br/>
+
+decode with key: 'asdf'
+
+<br/>
+
+**resulst:**
+
+```
+{
+  "id": "5eb5671c9b463f01a9722945",
+  "email": "marley6@example.com",
+  "iat": 1588946716
+}
+```
+
+<br/>
+
+![Application](/img/pic-09-16.png?raw=true)
+
+<br/>
+
+### 12. Securely Storing Secrets with Kubernetes
+
+<br/>
+
+![Application](/img/pic-09-17.png?raw=true)
+
+<br/>
+
+### 13. Creating and Accessing Secrets
+
+    $ kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
+
+<br/>
+
+    $ kubectl get secrets
+    NAME                  TYPE                                  DATA   AGE
+    default-token-dmr6t   kubernetes.io/service-account-token   3      2d9h
+    jwt-secret            Opaque                                1      7s
+
 ---
 
 <br/>
