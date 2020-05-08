@@ -147,7 +147,7 @@ decode with key: 'asdf'
 
 <br/>
 
-**resulst:**
+**response:**
 
 <br/>
 
@@ -239,12 +239,65 @@ $ curl \
 | python -m json.tool
 ```
 
-**response**
+<br/>
+
+**response:**
 
 ```
 {
 "email": "marley7@example.com",
 "id": "5eb5997b5fcfb902b17eefc6"
+}
+```
+
+<br/>
+
+### 21. Current User Handler
+
+<br/>
+
+### 22. Returning the Current User
+
+```
+$ curl \
+--insecure \
+--cookie-jar /tmp/cookies.txt \
+--data '{"email":"marley@example.com", "password":"123456789"}' \
+--header "Content-Type: application/json" \
+--request POST https://ticketing.dev/api/users/signup \
+| python -m json.tool
+```
+
+<br/>
+
+```
+$ curl \
+--data '{"email":"marley@example.com", "password":"123456789"}' \
+--header "Content-Type: application/json" \
+--request POST http://ticketing.dev/api/users/signin \
+| python -m json.tool
+```
+
+<br/>
+
+```
+$ curl \
+--insecure \
+--cookie /tmp/cookies.txt \
+--header "Content-Type: application/json" \
+--request GET https://ticketing.dev/api/users/currentuser \
+| python -m json.tool
+```
+
+**response:**
+
+```
+{
+    "currentUser": {
+        "email": "marley@example.com",
+        "iat": 1588965708,
+        "id": "5eb5b14c97bd760b4fc2c798"
+    }
 }
 ```
 
