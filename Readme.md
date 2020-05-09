@@ -32,6 +32,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [10. Testing Isolated Microservices](./10_Testing_Isolated_Microservices.md)
 
+### [11. Integrating a Server-Side-Rendered React App](./11_Integrating_a_Server_Side_Rendered_React_App.md)
+
 <br/>
 
 ---

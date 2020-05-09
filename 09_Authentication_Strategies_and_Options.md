@@ -330,5 +330,5 @@ $ curl \
 
 **Marley**
 
-Any questions on eng: https://jsdev.org/chat/
+Any questions on eng: https://jsdev.org/chat/  
 Любые вопросы на русском: https://jsdev.ru/chat/
