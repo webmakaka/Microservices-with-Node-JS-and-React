@@ -65,6 +65,32 @@
 
 <br/>
 
+### 10. Requiring Unique Emails
+
+<br/>
+
+### 11. Changing Node Env During Tests
+
+<br/>
+
+### 12. Tests Around Sign In Functionality
+
+<br/>
+
+### 13. Testing Sign Out
+
+<br/>
+
+### 14. Issues with Cookies During Testing
+
+<br/>
+
+### 15. Easy Auth Solution
+
+
+
+<br/>
+
 ---
 
 <br/>
