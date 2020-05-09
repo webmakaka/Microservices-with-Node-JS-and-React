@@ -74,6 +74,14 @@ https://ticketing.dev/auth/signup
 
 <br/>
 
+### 11. Handling Validation Errors
+
+<br/>
+
+![Application](/img/pic-11-03.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
