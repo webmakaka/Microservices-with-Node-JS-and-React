@@ -87,7 +87,17 @@
 
 ### 15. Easy Auth Solution
 
+<br/>
 
+### 16. Auth Helper Function
+
+<br/>
+
+### 17. Testing Non-Authed Requests
+
+<br/>
+
+![Application](/img/pic-10-05.png?raw=true)
 
 <br/>
 
