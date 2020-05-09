@@ -44,7 +44,22 @@ browser --> https://ticketing.dev/
 
 ### 06. Note on File Change Detection
 
+<br/>
 
+### 07. Adding Global CSS
+
+    $ cd client
+    $ npm install --save bootstrap
+
+<br/>
+
+![Application](/img/pic-11-02.png?raw=true)
+
+<br/>
+
+### 08. Adding a Sign Up Form
+
+https://ticketing.dev/auth/signup
 
 <br/>
 
