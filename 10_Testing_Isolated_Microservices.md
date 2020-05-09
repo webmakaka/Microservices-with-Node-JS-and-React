@@ -42,6 +42,17 @@
 
 <br/>
 
+### 06. Test Environment Setup
+
+<br/>
+
+### 07. Our First Test
+
+    $ cd auth
+    $ npm run test
+
+<br/>
+
 ---
 
 <br/>
