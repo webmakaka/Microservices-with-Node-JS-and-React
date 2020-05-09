@@ -14,3 +14,7 @@ spec:
             backend:
               serviceName: auth-svc
               servicePort: 3000
+          - path: /?(.*)
+            backend:
+              serviceName: client-svc
+              servicePort: 3000

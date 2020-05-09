@@ -26,6 +26,22 @@
 
 <br/>
 
+### 04. Building a Next Image
+
+<br/>
+
+### 05. Running Next in Kubernetes
+
+If chome will block for security reasons, type: **thisisunsafe**
+
+browser --> https://ticketing.dev/
+
+<br/>
+
+![Application](/img/pic-11-01.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
