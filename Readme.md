@@ -26,9 +26,11 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [07. Response Normalization Strategies](./07_Response_Normalization_Strategies.md)
 
-### [08. Database Management and Modeling](./08_Database Management_and_Modeling.md)
+### [08. Database Management and Modeling](./08_Database_Management_and_Modeling.md)
 
 ### [09. Authentication Strategies and Options](./09_Authentication_Strategies_and_Options.md)
+
+### [10. Testing Isolated Microservices](./10_Testing_Isolated_Microservices.md)
 
 <br/>
 
