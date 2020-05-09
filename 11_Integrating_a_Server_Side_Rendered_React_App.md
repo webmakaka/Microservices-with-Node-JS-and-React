@@ -63,6 +63,10 @@ https://ticketing.dev/auth/signup
 
 <br/>
 
+### 09. Handling Email and Password Inputs
+
+<br/>
+
 ---
 
 <br/>
