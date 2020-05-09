@@ -67,6 +67,13 @@ https://ticketing.dev/auth/signup
 
 <br/>
 
+### 10. Successful Account Signup
+
+    $ cd clien
+    $ npm install --save axios
+
+<br/>
+
 ---
 
 <br/>
