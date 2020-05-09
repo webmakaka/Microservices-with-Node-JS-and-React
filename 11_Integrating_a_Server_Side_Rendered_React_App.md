@@ -42,6 +42,12 @@ browser --> https://ticketing.dev/
 
 <br/>
 
+### 06. Note on File Change Detection
+
+
+
+<br/>
+
 ---
 
 <br/>
