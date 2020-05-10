@@ -94,6 +94,105 @@ https://ticketing.dev/auth/signup
 
 <br/>
 
+### 14. An onSuccess Callback
+
+<br/>
+
+### 15. Overview on Server Side Rendering
+
+<br/>
+
+### 16. Fetching Data During SSR
+
+<br/>
+
+### 17. Why the Error
+
+<br/>
+
+![Application](/img/pic-11-05.png?raw=true)
+
+<br/>
+
+### 18. Two Possible Solutions
+
+<br/>
+
+![Application](/img/pic-11-06.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-11-07.png?raw=true)
+
+<br/>
+
+### 19. Cross Namespace Service Communication
+
+<br/>
+
+![Application](/img/pic-11-08.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-11-09.png?raw=true)
+
+<br/>
+
+### 20. When is GetInitialProps Called
+
+<br/>
+
+![Application](/img/pic-11-10.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-11-11.png?raw=true)
+
+<br/>
+
+### 21. On the Server or the Browser
+
+<br/>
+
+### 22. Specifying the Host
+
+<br/>
+
+    http://SERVICENAME.NAMESPACE.svc.cluster.local
+
+<br/>
+
+    $ kubectl get ingress --all-namespaces
+    NAMESPACE   NAME          CLASS    HOSTS           ADDRESS      PORTS   AGE
+    default     ingress-svc   <none>   ticketing.dev   172.17.0.2   80      123m
+
+<br/>
+
+    // NOT WORKS for ME.
+    http://ingress-svc.default.svc.cluster.local
+
+<br/>
+
+    $ kubectl exec -ti auth-deployment-5494fcdc44-hw75w -- nslookup 172.17.0.2
+    nslookup: can't resolve '(null)': Name does not resolve
+
+    Name:      172.17.0.2
+    Address 1: 172.17.0.2 172-17-0-2.kubernetes.default.svc.cluster.local
+
+<br/>
+
+### 23. Passing Through the Cookies
+
+<br/>
+
+![Application](/img/pic-11-12.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-11-13.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>

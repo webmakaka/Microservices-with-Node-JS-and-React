@@ -4,7 +4,7 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 <br/>
 
-**If this course is expensive for you. Try to find a coupons in the internet.**
+**If this course is expensive for you. Try to find a coupon in the internet.**
 
 <br/>
 
