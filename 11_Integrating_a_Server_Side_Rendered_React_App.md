@@ -193,6 +193,10 @@ https://ticketing.dev/auth/signup
 
 <br/>
 
+### 24. A Reusable API Client
+
+<br/>
+
 ---
 
 <br/>

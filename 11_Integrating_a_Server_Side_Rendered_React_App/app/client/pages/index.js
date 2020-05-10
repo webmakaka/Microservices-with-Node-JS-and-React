@@ -1,4 +1,4 @@
-import axios from 'axios';
+import buildClient from '../api/build-client';
 
 const LandingPage = ({ currentUser }) => {
   console.log('currentUser ', currentUser);
@@ -6,23 +6,10 @@ const LandingPage = ({ currentUser }) => {
   return <h1>Langing Page </h1>;
 };
 
-LandingPage.getInitialProps = async ({ req }) => {
-  if (typeof window === 'undefined') {
-    const { data } = await axios.get(
-      'http://172-17-0-2.kubernetes.default.svc.cluster.local/api/users/currentuser',
-      {
-        headers: req.headers,
-      }
-    );
-    return data;
-  } else {
-    const { data } = await axios.get('/api/users/currentuser');
-    console.log('data');
-    console.log(data);
-    return data;
-  }
-
-  return {};
+LandingPage.getInitialProps = async (context) => {
+  const client = buildClient(context);
+  const { data } = await client.get('/api/users/currentuser');
+  return data;
 };
 
 export default LandingPage;
