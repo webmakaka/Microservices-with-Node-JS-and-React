@@ -197,6 +197,18 @@ https://ticketing.dev/auth/signup
 
 <br/>
 
+### 25. Content on the Landing Page
+
+<br/>
+
+### 26. The Sign In Form
+
+<br/>
+
+![Application](/img/pic-11-14.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
