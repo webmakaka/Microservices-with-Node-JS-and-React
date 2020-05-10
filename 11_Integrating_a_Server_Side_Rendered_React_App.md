@@ -209,6 +209,42 @@ https://ticketing.dev/auth/signup
 
 <br/>
 
+### 27. A Reusable Header
+
+<br/>
+
+### 28. Moving GetInitialProps
+
+<br/>
+
+### 29. Issues with Custom App GetInitialProps
+
+<br/>
+
+### 30. Handling Multiple GetInitialProps
+
+<br/>
+
+### 31. Passing Props Through
+
+<br/>
+
+### 32. Building the Header
+
+<br/>
+
+### 33. Conditionally Showing Links
+
+<br/>
+
+### 34. Signing Out
+
+<br/>
+
+![Application](/img/pic-11-15.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
