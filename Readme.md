@@ -36,6 +36,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [12. Code Sharing and Reuse Between Services](./12_Code_Sharing_and_Reuse_Between_Services.md)
 
+### [13. Create-Read-Update-Destroy Server Setup](./13_Create_Read_Update_Destroy_Server_Setup.md)
+
 <br/>
 
 ---
