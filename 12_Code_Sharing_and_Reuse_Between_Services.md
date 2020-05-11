@@ -78,6 +78,41 @@ npmjs --> create organization
 
 <br/>
 
+### 06. An Easy Publish Command
+
+<br/>
+
+    $ npm version patch
+    $ npm run build
+
+<br/>
+
+### 07. Relocating Shared Code
+
+```
+auth/src/errors copy to common/src/errors
+auth/src/middlewares copy to common/src/middlewares
+```
+
+    $ npm install --save \
+    express \
+    express-validator \
+    cookie-session \
+    jsonwebtoken \
+    @types/cookie-session \
+    @types/express \
+    @types/jsonwebtoken
+
+<br/>
+
+    $ tsc
+
+<br/>
+
+    $ npm run publish
+
+<br/>
+
 ---
 
 <br/>
