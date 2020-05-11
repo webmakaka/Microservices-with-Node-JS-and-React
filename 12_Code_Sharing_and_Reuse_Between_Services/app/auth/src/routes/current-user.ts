@@ -1,6 +1,5 @@
 import express from 'express';
-
-import { currentUser } from '../middlewares/current-user';
+import { currentUser } from '@grider-ms-tickets/common';
 
 const router = express.Router();
 

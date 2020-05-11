@@ -113,6 +113,18 @@ auth/src/middlewares copy to common/src/middlewares
 
 <br/>
 
+### 08. Updating Import Statements
+
+    $ cd auth
+    $ npm install --save @grider-ms-tickets/common
+
+<br/>
+
+### 09. Updating the Common Module
+
+    $ cd auth
+    $ npm update @grider-ms-tickets/common
+
 ---
 
 <br/>

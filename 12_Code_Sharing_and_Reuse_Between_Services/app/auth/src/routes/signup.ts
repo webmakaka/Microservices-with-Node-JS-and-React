@@ -2,8 +2,7 @@ import express, { Request, Response } from 'express';
 import { body } from 'express-validator';
 import jwt from 'jsonwebtoken';
 
-import { validateRequest } from '../middlewares/validate-request';
-import { BadRequstError } from '../errors/bad-request-error';
+import { validateRequest, BadRequstError } from '@grider-ms-tickets/common';
 
 import { User } from '../models/User';
 
