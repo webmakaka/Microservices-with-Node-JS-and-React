@@ -29,6 +29,17 @@ copy some files from auth project
 
 <br/>
 
+### 05. Quick Auth Update
+
+<br/>
+
+### 06. Test-First Approach
+
+    $ cd tickets
+    $ npm run test
+
+<br/>
+
 ---
 
 <br/>

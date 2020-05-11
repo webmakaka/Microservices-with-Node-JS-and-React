@@ -16,6 +16,8 @@ spec:
         - name: auth
           image: webmakaka/grider-ms-app2-auth
           env:
+            - name: MONGO_URI
+              value: 'mongodb://auth-mongo-svc:27017/auth'
             - name: JWT_KEY
               valueFrom:
                 secretKeyRef:
