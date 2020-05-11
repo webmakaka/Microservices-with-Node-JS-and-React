@@ -68,6 +68,22 @@ copy some files from auth project
 
 <br/>
 
+### 13. Reminder on Mongoose with TypeScript
+
+<br/>
+
+![Application](/img/pic-13-01.png?raw=true)
+
+<br/>
+
+### 14. Defining the Ticket Model
+
+<br/>
+
+### 15. Creation via Route Handler
+
+<br/>
+
 ---
 
 <br/>
