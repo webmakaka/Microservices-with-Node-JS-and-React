@@ -40,6 +40,26 @@ copy some files from auth project
 
 <br/>
 
+### 07. Creating the Router
+
+<br/>
+
+### 08. Adding Auth Protection
+
+<br/>
+
+### 09. Faking Authentication During Tests
+
+<br/>
+
+### 09. Faking Authentication During Tests
+
+<br/>
+
+### 10. Building a Session
+
+<br/>
+
 ---
 
 <br/>
