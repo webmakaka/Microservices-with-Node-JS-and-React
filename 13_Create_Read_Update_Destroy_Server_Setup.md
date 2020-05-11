@@ -60,6 +60,14 @@ copy some files from auth project
 
 <br/>
 
+### 11. Testing Request Validation
+
+<br/>
+
+### 12. Validating Title and Price
+
+<br/>
+
 ---
 
 <br/>
