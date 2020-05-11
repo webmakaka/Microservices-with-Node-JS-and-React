@@ -34,6 +34,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [11. Integrating a Server-Side-Rendered React App](./11_Integrating_a_Server_Side_Rendered_React_App.md)
 
+### [12. Code Sharing and Reuse Between Services](./12_Code_Sharing_and_Reuse_Between_Services.md)
+
 <br/>
 
 ---
