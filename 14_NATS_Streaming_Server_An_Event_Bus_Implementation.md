@@ -36,7 +36,7 @@
 
 <br/>
 
-![Application](/img/pic-14-03.png?raw=true)
+![Application](/img/pic-14-04.png?raw=true)
 
 <br/>
 
@@ -73,6 +73,14 @@ tickets-mongo-deployment-869f7b4c75-9q48f   1/1     Running   0          109m
 
     $ cd nats-test
     $ npm run publish
+
+<br/>
+
+### 07. Publishing Events
+
+<br/>
+
+![Application](/img/pic-14-05.png?raw=true)
 
 <br/>
 
