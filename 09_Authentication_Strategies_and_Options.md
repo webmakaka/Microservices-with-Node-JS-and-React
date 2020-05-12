@@ -259,6 +259,7 @@ $ curl \
 ### 22. Returning the Current User
 
 ```
+// SIGN UP
 $ curl \
 --insecure \
 --cookie-jar /tmp/cookies.txt \
@@ -271,6 +272,7 @@ $ curl \
 <br/>
 
 ```
+// SIGN IN
 $ curl \
 --data '{"email":"marley@example.com", "password":"123456789"}' \
 --header "Content-Type: application/json" \
