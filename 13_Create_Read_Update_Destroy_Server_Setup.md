@@ -84,6 +84,30 @@ copy some files from auth project
 
 <br/>
 
+### 16. Testing Show Routes
+
+<br/>
+
+### 17. Unexpected Failure!
+
+<br/>
+
+### 18. What's that Error!
+
+<br/>
+
+### 19. Better Error Logging
+
+    $ cd common
+    $ npm run publish
+
+<br/>
+
+    $ cd tickets
+    $ npm update @grider-ms-tickets/common
+
+<br/>
+
 ---
 
 <br/>
