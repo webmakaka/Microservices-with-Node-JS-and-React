@@ -38,6 +38,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [13. Create-Read-Update-Destroy Server Setup](./13_Create_Read_Update_Destroy_Server_Setup.md)
 
+### [14. NATS Streaming Server - An Event Bus Implementation](./14_NATS_Streaming_Server_An_Event_Bus_Implementation.md)
+
 <br/>
 
 ---
