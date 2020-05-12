@@ -84,6 +84,26 @@ tickets-mongo-deployment-869f7b4c75-9q48f   1/1     Running   0          109m
 
 <br/>
 
+### 08. Listening For Data
+
+<br/>
+
+    $ npm run listen
+
+<br/>
+    
+    console with publisher: rs + [Enter]
+
+<br/>
+
+### 09. Accessing Event Data
+
+<br/>
+
+![Application](/img/pic-14-06.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
