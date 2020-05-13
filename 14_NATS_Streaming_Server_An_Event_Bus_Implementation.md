@@ -116,6 +116,10 @@ tickets-mongo-deployment-869f7b4c75-9q48f   1/1     Running   0          109m
 
 <br/>
 
+### 12. Manual Ack Mode
+
+<br/>
+
 ---
 
 <br/>
