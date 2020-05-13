@@ -40,6 +40,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [14. NATS Streaming Server - An Event Bus Implementation](./14_NATS_Streaming_Server_An_Event_Bus_Implementation.md)
 
+### [15. Connecting to NATS in a Node JS World](./15_Connecting_to_NATS_in_a_Node_JS_World.md)
+
 <br/>
 
 ---
