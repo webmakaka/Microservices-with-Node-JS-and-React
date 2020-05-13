@@ -134,6 +134,54 @@ browser
 
 <br/>
 
+### 15. Core Concurrency Issues
+
+<br/>
+
+### 16. Common Questions
+
+<br/>
+
+### 17. [Optional] More Possible Concurrency Solutions
+
+<br/>
+
+### 18. Solving Concurrency Issues
+
+<br/>
+
+![Application](/img/pic-14-08.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-14-09.png?raw=true)
+
+<br/>
+
+### 19. Concurrency Control with the Tickets App
+
+<br/>
+
+![Application](/img/pic-14-10.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-14-11.png?raw=true)
+
+<br/>
+
+### 20. Event Redelivery
+
+<br/>
+
+### 21. Durable Subscriptions
+
+<br/>
+
+![Application](/img/pic-14-12.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
