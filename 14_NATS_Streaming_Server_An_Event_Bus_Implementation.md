@@ -68,6 +68,7 @@ tickets-mongo-deployment-869f7b4c75-9q48f   1/1     Running   0          109m
 <br/>
 
     $ kubectl port-forward nats-deployment-6bf654c867-cvc2q 4222:4222
+    $ kubectl port-forward nats-deployment-6bf654c867-cvc2q 8222:8222
 
 <br/>
 
@@ -117,6 +118,19 @@ tickets-mongo-deployment-869f7b4c75-9q48f   1/1     Running   0          109m
 <br/>
 
 ### 12. Manual Ack Mode
+
+<br/>
+
+### 13. Client Health Checks
+
+browser
+
+    http://localhost:8222/streaming
+    http://localhost:8222/streaming/channelsz?subs=1
+
+<br/>
+
+### 14. Graceful Client Shutdown
 
 <br/>
 
