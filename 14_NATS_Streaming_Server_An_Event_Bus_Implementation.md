@@ -104,6 +104,18 @@ tickets-mongo-deployment-869f7b4c75-9q48f   1/1     Running   0          109m
 
 <br/>
 
+### 10. Client ID Generation
+
+<br/>
+
+### 11. Queue Groups
+
+<br/>
+
+![Application](/img/pic-14-07.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
