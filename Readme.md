@@ -44,6 +44,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [16. Managing a NATS Client](./16_Managing_a_NATS_Client.md)
 
+### [17. Cross-Service Data Replication In Action](./17_Cross_Service_Data_Replication_In_Action.md)
+
 <br/>
 
 ---
