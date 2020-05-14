@@ -70,7 +70,24 @@
 
 ### 14. Common Event Definitions Summary
 
+<br/>
 
+### 15. Updating the Common Module
+
+    $ cd common
+    $ npm install --save node-nats-streaming
+
+<br/>
+
+    $ cd tickets/
+    $ npm update @grider-ms-tickets/common
+
+    $ cd nats-test/
+    $ npm install --save @grider-ms-tickets/common
+
+<br/>
+
+### 16. Restarting NATS
 
 <br/>
 

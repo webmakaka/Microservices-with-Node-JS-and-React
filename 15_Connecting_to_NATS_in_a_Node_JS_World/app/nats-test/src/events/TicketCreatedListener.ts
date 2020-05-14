@@ -1,7 +1,9 @@
 import { Message } from 'node-nats-streaming';
-import { ListenerAbstract } from './ListenerAbstract';
-import { TicketCreatedEventInterface } from './TicketCreatedEventInterface';
-import { SubjectsEnum } from './SubjectsEnum';
+import {
+  ListenerAbstract,
+  TicketCreatedEventInterface,
+  SubjectsEnum,
+} from '@grider-ms-tickets/common';
 
 export class TicketCreatedListener extends ListenerAbstract<
   TicketCreatedEventInterface

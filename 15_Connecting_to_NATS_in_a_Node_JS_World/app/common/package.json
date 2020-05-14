@@ -1,6 +1,6 @@
 {
   "name": "@grider-ms-tickets/common",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "del ./build/*",
     "build": "npm run clean && tsc",
-    "publish": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +26,7 @@
     "cookie-session": "^1.4.0",
     "express": "^4.17.1",
     "express-validator": "^6.4.1",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "node-nats-streaming": "^0.3.2"
   }
 }
