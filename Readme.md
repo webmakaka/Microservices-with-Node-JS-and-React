@@ -42,6 +42,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [15. Connecting to NATS in a Node JS World](./15_Connecting_to_NATS_in_a_Node_JS_World.md)
 
+### [16. Managing a NATS Client](./16_Managing_a_NATS_Client.md)
+
 <br/>
 
 ---
