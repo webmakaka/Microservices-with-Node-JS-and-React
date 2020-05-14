@@ -91,6 +91,22 @@
 
 <br/>
 
+### 13. Redirecting Imports
+
+<br/>
+
+![Application](/img/pic-16-06.png?raw=true)
+
+<br/>
+
+### 14. Providing a Mock Implementation
+
+<br/>
+
+### 15. Test-Suite Wide Mocks
+
+<br/>
+
 ---
 
 <br/>
