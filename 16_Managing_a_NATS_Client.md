@@ -68,6 +68,27 @@
 
 ### 09. Ticket Update Publishing
 
+// UPDATE TICKET
+
+<br/>
+
+### 10. Failed Event Publishing
+
+<br/>
+
+### 11. Handling Publish Failures
+
+<br/>
+
+### 12. Fixing a Few Tests
+
+    $ cd tickets
+    $ npm run test
+
+<br/>
+
+![Application](/img/pic-16-05.png?raw=true)
+
 <br/>
 
 ---
