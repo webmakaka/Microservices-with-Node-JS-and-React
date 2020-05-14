@@ -2,6 +2,8 @@ import express, { Request, Response } from 'express';
 import { body } from 'express-validator';
 import { requireAuth, validateRequest } from '@grider-ms-tickets/common';
 import { Ticket } from '../models/Ticket';
+import { TicketCreatedPublisher } from '../events/publishers/TicketCreatedPublisher';
+import { natsWrapper } from '../NatsWrapper';
 
 const router = express.Router();
 
@@ -23,6 +25,14 @@ router.post(
       userId: req.currentUser!.id,
     });
     await ticket.save();
+
+    new TicketCreatedPublisher(natsWrapper.client).publish({
+      id: ticket.id,
+      title: ticket.title,
+      price: ticket.price,
+      userId: ticket.userId,
+    });
+
     return res.status(201).send(ticket);
   }
 );

@@ -8,6 +8,50 @@
 
 <br/>
 
+### 02. More on Publishing
+
+<br/>
+
+### 03. NATS Client Singleton
+
+<br/>
+
+![Application](/img/pic-16-01.png?raw=true)
+
+<br/>
+
+### 04. Remember Mongoose
+
+<br/>
+
+![Application](/img/pic-16-02.png?raw=true)
+
+<br/>
+
+### 05. Singleton Implementation
+
+<br/>
+
+### 06. Accessing the NATS Client
+
+<br/>
+
+### 07. Graceful Shutdown
+
+<br/>
+
+    $ kubectl delete pod nats-deployment-cb48ddfbf-zghfq
+
+<br/>
+
+**Nats connection closed!**
+
+<br/>
+
+![Application](/img/pic-16-03.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
