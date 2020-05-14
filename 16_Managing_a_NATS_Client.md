@@ -52,6 +52,20 @@
 
 <br/>
 
+### 08. Successful Listen!
+
+    $ npm run listen
+
+<br/>
+
+// CREATE TICKET
+
+<br/>
+
+![Application](/img/pic-16-04.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
