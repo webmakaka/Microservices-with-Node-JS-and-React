@@ -18,7 +18,37 @@
 
 ### 04. Quick Refactor
 
+<br/>
 
+### 05. Leveraging TypeScript for Listener Validation
+
+<br/>
+
+### 06. Subjects Enum
+
+<br/>
+
+### 07. Custom Event Interface
+
+<br/>
+
+### 08. Enforcing Listener Subjects
+
+<br/>
+
+### 09. Enforcing Data Types
+
+<br/>
+
+### 10. Where Does this Get Used
+
+<br/>
+
+### 11. Custom Publisher
+
+<br/>
+
+### 12. Using the Custom Publisher
 
 <br/>
 
