@@ -32,3 +32,11 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
+    - image: webmakaka/grider-ms-app2-orders
+      context: ../app/orders
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: 'src/**/*.ts'
+            dest: .

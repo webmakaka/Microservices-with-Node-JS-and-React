@@ -12,6 +12,26 @@
 
 <br/>
 
+### 02. Scaffolding the Orders Service
+
+<br/>
+
+![Application](/img/pic-17-02.png?raw=true)
+
+<br/>
+
+### 03. A Touch More Setup
+
+<br/>
+
+### 04. Ingress Routing Rules
+
+<br/>
+
+![Application](/img/pic-17-03.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>

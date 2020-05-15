@@ -18,6 +18,10 @@ spec:
             backend:
               serviceName: tickets-svc
               servicePort: 3000
+          - path: /api/orders/?(.*)
+            backend:
+              serviceName: orders-svc
+              servicePort: 3000
           - path: /?(.*)
             backend:
               serviceName: client-svc
