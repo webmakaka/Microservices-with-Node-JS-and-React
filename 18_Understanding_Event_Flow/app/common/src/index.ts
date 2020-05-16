@@ -15,5 +15,6 @@ export * from './events/PublisherAbstract';
 export * from './events/SubjectsEnum';
 export * from './events/TicketCreatedEventInterface';
 export * from './events/TicketUpdatedEventInterface';
-
-export * from './events/types/OrderStatus';
+export * from './events/types/OrderStatusEnum';
+export * from './events/OrderCreatedEventInterface';
+export * from './events/OrderCancelledEventInterface';

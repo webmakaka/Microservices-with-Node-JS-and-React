@@ -20,6 +20,18 @@
 
 <br/>
 
+### 02. Creating the Events
+
+    $ cd common
+    $ npm run pub
+
+<br/>
+
+    $ cd orders
+    $ npm update @grider-ms-tickets/common
+
+<br/>
+
 ---
 
 <br/>
