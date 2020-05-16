@@ -104,6 +104,33 @@
 
 <br/>
 
+### 17. Test Suite Setup
+
+<br/>
+
+### 18. Asserting Tickets Exist
+
+    $ co orders
+    $ npm run test
+
+<br/>
+
+### 19. Asserting Reserved Tickets
+
+<br/>
+
+### 20. Testing the Success Case
+
+<br/>
+
+### 21. Fetching a User's Orders
+
+<br/>
+
+### 22. A Slightly Complicated Test
+
+<br/>
+
 ---
 
 <br/>
