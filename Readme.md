@@ -58,6 +58,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [18. Understanding Event Flow](./18_Understanding_Event_Flow.md)
 
+### [19. Listening for Events and Handling Concurrency Issues](./19_Listening_for_Events_and_Handling_Concurrency_Issues.md)
+
 <br/>
 
 ---

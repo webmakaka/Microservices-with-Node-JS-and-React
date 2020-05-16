@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nats-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nats
+  template:
+    metadata:
+      labels:
+        app: nats
+    spec:
+      containers:
+        - name: nats
+          image: nats-streaming:0.17.0
+          args:
+            [
+              '-p',
+              '4222',
+              '-m',
+              '8222',
+              '-hbi',
+              '5s',
+              '-hbt',
+              '5s',
+              '-hbf',
+              '2',
+              '-SD',
+              '-cid',
+              'ticketing',
+            ]
+          env:
+            - name: MONGO_URI
+              value: 'mongodb://nats-mongo-svc:27017/nats'
+            - name: JWT_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: jwt-secret
+                  key: JWT_KEY

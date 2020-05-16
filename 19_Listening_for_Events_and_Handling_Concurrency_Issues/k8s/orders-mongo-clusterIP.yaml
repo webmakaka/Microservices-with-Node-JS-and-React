@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: orders-mongo-svc
+spec:
+  selector:
+    app: orders-mongo
+  ports:
+    - name: db
+      protocol: TCP
+      port: 27017
+      targetPort: 27017
