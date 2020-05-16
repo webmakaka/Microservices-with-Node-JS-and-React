@@ -36,6 +36,22 @@
 
 <br/>
 
+### 04. Publishing the Order Creation
+
+<br/>
+
+### 05. Publishing Order Cancellation
+
+    $ cd common
+    $ npm run pub
+
+<br/>
+
+    $ cd orders
+    $ npm update @grider-ms-tickets/common
+
+<br/>
+
 ---
 
 <br/>
