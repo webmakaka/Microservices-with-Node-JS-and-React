@@ -2,6 +2,8 @@ import mongoose from 'mongoose';
 import { OrderStatusEnum } from '@grider-ms-tickets/common';
 import { TicketDoc } from './Ticket';
 
+export { OrderStatusEnum };
+
 interface OrderAttrs {
   userId: string;
   status: OrderStatusEnum;

@@ -1,9 +1,19 @@
 import mongoose from 'mongoose';
 import express, { Request, Response } from 'express';
-import { requireAuth, validateRequest } from '@grider-ms-tickets/common';
+import {
+  requireAuth,
+  validateRequest,
+  NotFoundError,
+  OrderStatusEnum,
+  BadRequstError,
+} from '@grider-ms-tickets/common';
 import { body } from 'express-validator';
+import { Ticket } from '../models/Ticket';
+import { Order } from '../models/Order';
 
 const router = express.Router();
+
+const EXPIRATION_WINDOW_SECONDS = 15 * 60;
 
 router.post(
   '/api/orders',
@@ -17,7 +27,33 @@ router.post(
   ],
   validateRequest,
   async (req: Request, res: Response) => {
-    return res.send({});
+    const { ticketId } = req.body;
+
+    const ticket = await Ticket.findById(ticketId);
+
+    if (!ticket) {
+      throw new NotFoundError();
+    }
+
+    const isReserved = await ticket.isReserved();
+
+    if (isReserved) {
+      throw new BadRequstError('Ticket is already reserved');
+    }
+
+    const expiration = new Date();
+    expiration.setSeconds(expiration.getSeconds() + EXPIRATION_WINDOW_SECONDS);
+
+    const order = Order.build({
+      userId: req.currentUser!.id,
+      status: OrderStatusEnum.Created,
+      expiresAt: expiration,
+      ticket,
+    });
+
+    await order.save();
+
+    return res.status(201).send(order);
   }
 );
 

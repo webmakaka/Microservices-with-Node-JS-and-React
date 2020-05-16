@@ -88,6 +88,22 @@
 
 <br/>
 
+### 13. Order Creation Logic
+
+<br/>
+
+### 14. Finding Reserved Tickets
+
+<br/>
+
+### 15. Convenience Document Methods
+
+<br/>
+
+### 16. Order Expiration Times
+
+<br/>
+
 ---
 
 <br/>
