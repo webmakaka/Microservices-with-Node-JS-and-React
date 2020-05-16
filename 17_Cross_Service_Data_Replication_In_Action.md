@@ -139,6 +139,14 @@
 
 <br/>
 
+### 25. Cancelling an Order
+
+<br/>
+
+### 26. Can We Cancel
+
+<br/>
+
 ---
 
 <br/>
