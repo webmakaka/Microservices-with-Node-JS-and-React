@@ -52,6 +52,10 @@
 
 <br/>
 
+### 06. Testing Event Publishing
+
+<br/>
+
 ---
 
 <br/>
