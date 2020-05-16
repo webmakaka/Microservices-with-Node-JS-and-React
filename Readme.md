@@ -56,6 +56,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [17. Cross-Service Data Replication In Action](./17_Cross_Service_Data_Replication_In_Action.md)
 
+### [18. Understanding Event Flow](./18_Understanding_Event_Flow.md)
+
 <br/>
 
 ---

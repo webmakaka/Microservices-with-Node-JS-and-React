@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: orders-svc
+spec:
+  selector:
+    app: orders
+  ports:
+    - name: orders
+      protocol: TCP
+      port: 3000
+      targetPort: 3000
