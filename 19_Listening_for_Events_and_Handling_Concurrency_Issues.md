@@ -56,6 +56,40 @@
 
 <br/>
 
+### 10. Clear Concurrency Issues
+
+<br/>
+
+### 11. Reminder on Versioning Records
+
+<br/>
+
+### 12. Optimistic Concurrency Control
+
+<br/>
+
+![Application](/img/pic-19-02.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-19-03.png?raw=true)
+
+<br/>
+
+### 13. Mongoose Update-If-Current
+
+    $ cd tickets
+    $ npm install --save mongoose-update-if-current
+
+<br/>
+
+### 14. Implementing OCC with Mongoose
+
+    $ cd tickets
+    $ npm run test
+
+<br/>
+
 ---
 
 <br/>
