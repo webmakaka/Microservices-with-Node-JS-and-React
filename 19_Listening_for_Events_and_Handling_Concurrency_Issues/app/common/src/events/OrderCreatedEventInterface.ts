@@ -5,6 +5,7 @@ export interface OrderCreatedEventInterface {
   subject: SubjectsEnum.OrderCreated;
   data: {
     id: string;
+    version: number;
     status: OrderStatusEnum;
     userId: string;
     expiresAt: string;

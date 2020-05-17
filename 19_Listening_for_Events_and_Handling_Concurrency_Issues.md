@@ -96,7 +96,26 @@
 
 ### 16. One More Test
 
+<br/>
 
+### 17. Who Updates Versions
+
+<br/>
+
+### 18. Including Versions in Events
+
+    $ cd common
+    $ npm run pub
+
+<br/>
+
+    $ cd orders
+    $ npm update @grider-ms-tickets/common
+
+<br/>
+
+    $ cd tickets
+    $ npm update @grider-ms-tickets/common
 
 <br/>
 
