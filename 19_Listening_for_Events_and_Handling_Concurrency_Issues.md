@@ -135,6 +135,21 @@ CREATE TICKET
 UPDATE TICKET
 ```
 
+Everything works after updates
+
+<br/>
+
+### 21. Did it Work
+
+<br/>
+
+### 22. Abstracted Query Method
+
+```
+CREATE TICKET
+UPDATE TICKET
+```
+
 ---
 
 <br/>
