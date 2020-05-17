@@ -119,6 +119,22 @@
 
 <br/>
 
+### 19. Updating Tickets Event Definitions
+
+<br/>
+
+### 20. Applying a Version Query
+
+    $ cd orders
+    $ npm install --save mongoose-update-if-current
+
+<br/>
+
+```
+CREATE TICKET
+UPDATE TICKET
+```
+
 ---
 
 <br/>
