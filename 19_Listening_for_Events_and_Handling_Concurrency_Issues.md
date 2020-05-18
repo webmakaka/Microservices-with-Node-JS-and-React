@@ -186,6 +186,59 @@ UPDATE TICKET
 
 ### 31. Fixing a Few Tests
 
+<br/>
+
+### 32. Listeners in the Tickets Service
+
+<br/>
+
+### 33. Building the Listener
+
+<br/>
+
+### 34. Strategies for Locking a Ticket
+
+<br/>
+
+![Application](/img/pic-19-04.png?raw=true)
+
+<br/>
+
+### 35. Reserving a Ticket
+
+<br/>
+
+### 36. Setup for Testing Reservation
+
+<br/>
+
+### 37. Test Implementation
+
+    $ cd tickets
+    $ npm run test
+
+<br/>
+
+### 38. Missing Update Event
+
+<br/>
+
+### 39. Private vs Protected Properties
+
+<br/>
+
+### 40. Publishing While Listening
+
+<br/>
+
+    $ cd tickets
+    $ npm update @grider-ms-tickets/common
+
+<br/>
+
+    $ cd orders
+    $ npm update @grider-ms-tickets/common
+
 ---
 
 <br/>

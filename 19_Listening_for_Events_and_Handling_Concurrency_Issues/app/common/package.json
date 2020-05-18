@@ -1,6 +1,6 @@
 {
   "name": "@grider-ms-tickets/common",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
