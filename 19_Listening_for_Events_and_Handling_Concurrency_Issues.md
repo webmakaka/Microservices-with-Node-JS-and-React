@@ -150,6 +150,42 @@ CREATE TICKET
 UPDATE TICKET
 ```
 
+<br/>
+
+### 23. [Optional] Versioning Without Update-If-Current
+
+<br/>
+
+### 24. Testing Listeners
+
+<br/>
+
+### 25. A Complete Listener Test
+
+<br/>
+
+### 26. Testing the Ack Call
+
+<br/>
+
+### 27. Testing the Ticket Updated Listener
+
+<br/>
+
+### 28. Success Case Testing
+
+<br/>
+
+### 29. Out-Of-Order Events
+
+<br/>
+
+### 30. The Next Few Videos
+
+<br/>
+
+### 31. Fixing a Few Tests
+
 ---
 
 <br/>
