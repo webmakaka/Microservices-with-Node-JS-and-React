@@ -239,6 +239,12 @@ UPDATE TICKET
     $ cd orders
     $ npm update @grider-ms-tickets/common
 
+<br/>
+
+### 41. Mock Function Arguments
+
+Sometime tests worsk sometime not. I did not find the reason. When run only one can works.
+
 ---
 
 <br/>
