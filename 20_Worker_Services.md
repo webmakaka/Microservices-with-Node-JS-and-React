@@ -28,6 +28,19 @@ copy some codes from tickets
 
     $ npm install --save bull @types/bull
 
+<br/>
+
+### 04. A Touch of Kubernetes Setup
+
+<br/>
+
+### 05. File Sync Setup
+
+    $ cd skaffold
+    $ skaffold dev
+
+<br/>
+
 ---
 
 <br/>
