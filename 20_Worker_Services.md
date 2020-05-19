@@ -140,6 +140,17 @@ $ curl \
 
 ### 15. Emitting the Order Cancelled Event
 
+<br/>
+
+### 16. Testing the Expiration Complete Listener
+
+<br/>
+
+### 17. A Touch More Testing
+
+    $ cd orders
+    $ npm run test
+
 ---
 
 <br/>
