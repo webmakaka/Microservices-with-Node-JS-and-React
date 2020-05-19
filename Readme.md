@@ -60,6 +60,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [19. Listening for Events and Handling Concurrency Issues](./19_Listening_for_Events_and_Handling_Concurrency_Issues.md)
 
+### [20. Worker Services](./20_Worker_Services.md)
+
 <br/>
 
 ---
