@@ -18,6 +18,16 @@
 
 ![Application](/img/pic-20-02.png?raw=true)
 
+<br/>
+
+### 03. Initial Setup
+
+    $ cd expiration
+
+copy some codes from tickets
+
+    $ npm install --save bull @types/bull
+
 ---
 
 <br/>
