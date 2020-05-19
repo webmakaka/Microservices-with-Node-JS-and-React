@@ -61,6 +61,56 @@ copy some codes from tickets
 
 <br/>
 
+### 09. Queueing a Job on Event Arrival
+
+<br/>
+
+### 10. Testing Job Processing
+
+```
+CREATE TICKET
+
+```
+
+<br/>
+
+```
+// CREATE ORDER
+$ curl \
+--insecure \
+--cookie /tmp/cookies.txt \
+--data '{"ticketId":"5ec43c86298c01001811bbb7"}' \
+--header "Content-Type: application/json" \
+--request POST https://ticketing.dev/api/orders \
+| python -m json.tool
+```
+
+<br/>
+
+**response:**
+
+```
+{
+    "expiresAt": "2020-05-19T20:23:05.480Z",
+    "id": "5ec43ca50880b600192cf43d",
+    "status": "created",
+    "ticket": {
+        "id": "5ec43c86298c01001811bbb7",
+        "price": 10,
+        "title": "concert",
+        "version": 0
+    },
+    "userId": "5ec43c7cb0fd040023683c8b",
+    "version": 0
+}
+```
+
+<br/>
+
+![Application](/img/pic-20-05.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>

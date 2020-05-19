@@ -5,6 +5,7 @@ import {
   SubjectsEnum,
 } from '@grider-ms-tickets/common';
 import { queueGroupName } from './queueGroupName';
+import { expirationQueue } from '../../queues/expiration-queue';
 
 export class OrderCreatedListener extends ListenerAbstract<
   OrderCreatedEventInterface
@@ -12,5 +13,11 @@ export class OrderCreatedListener extends ListenerAbstract<
   subject: SubjectsEnum.OrderCreated = SubjectsEnum.OrderCreated;
   queueGroupName = queueGroupName;
 
-  async onMessage(data: OrderCreatedEventInterface['data'], msg: Message) {}
+  async onMessage(data: OrderCreatedEventInterface['data'], msg: Message) {
+    await expirationQueue.add({
+      orderId: data.id,
+    });
+
+    msg.ack();
+  }
 }
