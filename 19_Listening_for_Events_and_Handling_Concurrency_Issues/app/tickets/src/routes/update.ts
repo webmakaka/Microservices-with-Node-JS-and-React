@@ -5,6 +5,7 @@ import {
   NotFoundError,
   requireAuth,
   NotAuthorizedError,
+  BadRequstError,
 } from '@grider-ms-tickets/common';
 import { Ticket } from '../models/Ticket';
 import { TicketUpdatedPublisher } from '../events/publishers/TicketUpdatedPublisher';
@@ -27,6 +28,10 @@ router.put(
 
     if (!ticket) {
       throw new NotFoundError();
+    }
+
+    if (ticket.orderId) {
+      throw new BadRequstError('Cannot edit a reserved ticket');
     }
 
     if (ticket.userId !== req.currentUser!.id) {

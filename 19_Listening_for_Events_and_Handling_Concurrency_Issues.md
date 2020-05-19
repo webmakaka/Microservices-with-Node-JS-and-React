@@ -243,7 +243,30 @@ UPDATE TICKET
 
 ### 41. Mock Function Arguments
 
-Sometime tests worsk sometime not. I did not find the reason. When run only one can works.
+    $ cd tickets
+    $ npm run test
+
+Sometime tests works sometime not. I did not find the reason. When run only one can works.
+
+<br/>
+
+### 42. Order Cancelled Listener
+
+<br/>
+
+### 43. A Lightning-Quick Test
+
+<br/>
+
+### 43. A Lightning-Quick Test
+
+<br/>
+
+### 44. Don't Forget to Listen!
+
+<br/>
+
+### 45. Rejecting Edits of Reserved Tickets
 
 ---
 
