@@ -69,7 +69,6 @@ copy some codes from tickets
 
 ```
 CREATE TICKET
-
 ```
 
 <br/>
@@ -108,6 +107,21 @@ $ curl \
 <br/>
 
 ![Application](/img/pic-20-05.png?raw=true)
+
+<br/>
+
+### 10. Testing Job Processing
+
+<br/>
+
+### 11. Delaying Job Processing
+
+<br/>
+
+### 12. Defining the Expiration Complete Event
+
+    $ cd expiration
+    $ npm update @grider-ms-tickets/common
 
 <br/>
 

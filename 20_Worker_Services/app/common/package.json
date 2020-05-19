@@ -1,6 +1,6 @@
 {
   "name": "@grider-ms-tickets/common",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -10,7 +10,8 @@
   "scripts": {
     "clean": "del ./build/*",
     "build": "npm run clean && tsc",
-    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
+    "pub": "npm version patch && npm run build && npm publish",
+    "pub-with-commit": "git add . && git commit -m \"Updates\" && npm run pub"
   },
   "keywords": [],
   "author": "",

@@ -18,3 +18,4 @@ export * from './events/TicketUpdatedEventInterface';
 export * from './events/types/OrderStatusEnum';
 export * from './events/OrderCreatedEventInterface';
 export * from './events/OrderCancelledEventInterface';
+export * from './events/ExpirationCompleteEventInterface';
