@@ -45,6 +45,22 @@ copy some codes from tickets
 
 <br/>
 
+### 07. What's Bull All About
+
+<br/>
+
+![Application](/img/pic-20-03.png?raw=true)
+
+<br/>
+
+### 08. Creating a Queue
+
+<br/>
+
+![Application](/img/pic-20-04.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
