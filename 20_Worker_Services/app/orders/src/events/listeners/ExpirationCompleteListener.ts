@@ -25,6 +25,10 @@ export class ExpirationCompleteListener extends ListenerAbstract<
       throw new Error('Order not found');
     }
 
+    if (order.status === OrderStatusEnum.Complete) {
+      return msg.ack();
+    }
+
     order.set({
       status: OrderStatusEnum.Cancelled,
     });

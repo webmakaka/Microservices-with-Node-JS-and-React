@@ -151,6 +151,21 @@ $ curl \
     $ cd orders
     $ npm run test
 
+<br/>
+
+### 18. Listening for Expiration
+
+```
+CREATE TICKET
+CREATE ORDER
+```
+
+<br/>
+
+### 19. Don't Cancel Completed Orders!
+
+<br/>
+
 ---
 
 <br/>
