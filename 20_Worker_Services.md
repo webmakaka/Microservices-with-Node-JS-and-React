@@ -125,7 +125,20 @@ $ curl \
 
 <br/>
 
+    $ cd orders
+    $ npm update @grider-ms-tickets/common
+
+<br/>
+
 ### 13. Publishing an Event on Job Processing
+
+<br/>
+
+### 14. Handling an Expiration Event
+
+<br/>
+
+### 15. Emitting the Order Cancelled Event
 
 ---
 
