@@ -16,6 +16,22 @@
 
 <br/>
 
+### 03. Replicated Fields
+
+<br/>
+
+![Application](/img/pic-21-02.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-21-03.png?raw=true)
+
+<br/>
+
+### 04. Another Order Model!
+
+<br/>
+
 ---
 
 <br/>
