@@ -22,7 +22,7 @@ export class OrderCreatedListener extends ListenerAbstract<
       version: data.version,
     });
 
-    order.save();
+    await order.save();
 
     msg.ack();
   }

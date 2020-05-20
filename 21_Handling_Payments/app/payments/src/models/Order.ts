@@ -1,4 +1,4 @@
-import mongoose, { MongooseDocument } from 'mongoose';
+import mongoose from 'mongoose';
 import { updateIfCurrentPlugin } from 'mongoose-update-if-current';
 import { OrderStatusEnum } from '@grider-ms-tickets/common';
 

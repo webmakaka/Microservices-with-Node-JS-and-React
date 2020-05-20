@@ -43,6 +43,13 @@
 
 <br/>
 
+### 07. Testing Order Creation
+
+    $ cd payments
+    $ npm run test
+
+<br/>
+
 ---
 
 <br/>
