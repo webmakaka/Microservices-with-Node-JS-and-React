@@ -48,3 +48,11 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
+    - image: webmakaka/grider-ms-app2-payments
+      context: ../app/payments
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: 'src/**/*.ts'
+            dest: .
