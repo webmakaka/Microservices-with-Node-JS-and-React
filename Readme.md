@@ -62,6 +62,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [20. Worker Services](./20_Worker_Services.md)
 
+### [21. Handling Payments](./21_Handling_Payments.md)
+
 <br/>
 
 ---

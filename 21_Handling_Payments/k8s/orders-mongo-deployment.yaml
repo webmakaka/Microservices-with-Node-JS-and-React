@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orders-mongo-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: orders-mongo
+  template:
+    metadata:
+      labels:
+        app: orders-mongo
+    spec:
+      containers:
+        - name: orders-mongo
+          image: mongo:4.2.6-bionic
