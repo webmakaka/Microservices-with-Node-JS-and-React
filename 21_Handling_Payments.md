@@ -170,6 +170,14 @@ $ curl \
 
 <br/>
 
+### 20. Automated Payment Testing
+
+<br/>
+
+### 21. Mocked Stripe Client
+
+<br/>
+
 ---
 
 <br/>

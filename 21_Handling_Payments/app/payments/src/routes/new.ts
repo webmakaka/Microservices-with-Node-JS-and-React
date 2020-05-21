@@ -43,7 +43,7 @@ router.post(
       source: token,
     });
 
-    return res.send({ success: true });
+    return res.status(201).send({ success: true });
   }
 );
 
