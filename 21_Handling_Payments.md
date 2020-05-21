@@ -186,6 +186,14 @@ $ curl \
 
 <br/>
 
+### 24. Tying an Order and Charge Together
+
+<br/>
+
+### 25. Testing Payment Creation
+
+<br/>
+
 ---
 
 <br/>

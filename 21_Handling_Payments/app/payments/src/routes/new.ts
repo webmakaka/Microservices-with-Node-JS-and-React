@@ -10,6 +10,7 @@ import {
 } from '@grider-ms-tickets/common';
 import { stripe } from '../stripe';
 import { Order } from '../models/Order';
+import { Payment } from '../models/Payment';
 
 const router = express.Router();
 router.post(
@@ -34,11 +35,18 @@ router.post(
       throw new BadRequstError('Cannot pay for an cancelled order');
     }
 
-    await stripe.charges.create({
+    const charge = await stripe.charges.create({
       currency: 'usd',
       amount: order.price * 100,
       source: token,
     });
+
+    const payment = Payment.build({
+      orderId,
+      stripeId: charge.id,
+    });
+
+    await payment.save();
 
     return res.status(201).send({ success: true });
   }
