@@ -107,6 +107,67 @@ CREATE ORDER
 
 <br/>
 
+### 16. Stripe Setup
+
+<br/>
+
+![Application](/img/pic-21-09.png?raw=true)
+
+<br/>
+
+    $ npm install --save stripe
+
+<br/>
+
+stripe.com
+
+Developers --> API keys
+
+<br/>
+
+### 17. Creating a Stripe Secret
+
+    $ kubectl create secret generic stripe-secret --from-literal=STRIPE_KEY=<STRIPE_SECRET_KEY>
+
+<br/>
+
+### 18. Creating a Charge with Stripe
+
+https://stripe.com/docs/api/charges/create
+
+<br/>
+
+### 19. Manual Testing of Payments
+
+    $ cd payments
+    $ npm update @grider-ms-tickets/common
+
+<br/>
+
+**restart skaffold dev**
+
+<br/>
+
+```
+CREATE TICKET
+CREATE ORDER
+```
+
+```
+// CREATE PAYMENT
+$ curl \
+--insecure \
+--cookie /tmp/cookies.txt \
+--data '{"orderId":"5ec6c93f6c627e0023725faf", "token": "tok_visa"}' \
+--header "Content-Type: application/json" \
+--request POST https://ticketing.dev/api/payments/ \
+| python -m json.tool
+```
+
+<br/>
+
+![Application](/img/pic-21-10.png?raw=true)
+
 <br/>
 
 ---

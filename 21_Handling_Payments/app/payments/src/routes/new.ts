@@ -8,6 +8,7 @@ import {
   NotAuthorizedError,
   OrderStatusEnum,
 } from '@grider-ms-tickets/common';
+import { stripe } from '../stripe';
 import { Order } from '../models/Order';
 
 const router = express.Router();
@@ -32,6 +33,15 @@ router.post(
     if (order.status === OrderStatusEnum.Cancelled) {
       throw new BadRequstError('Cannot pay for an cancelled order');
     }
+
+    console.log('process.env.STRIPE_KEY');
+    console.log(process.env.STRIPE_KEY);
+
+    await stripe.charges.create({
+      currency: 'usd',
+      amount: order.price * 100,
+      source: token,
+    });
 
     return res.send({ success: true });
   }
