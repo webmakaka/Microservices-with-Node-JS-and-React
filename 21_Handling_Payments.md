@@ -221,6 +221,10 @@ $ curl \
 
 <br/>
 
+### 28. Marking an Order as Complete
+
+<br/>
+
 ---
 
 <br/>
