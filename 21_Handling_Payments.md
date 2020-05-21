@@ -58,6 +58,19 @@
 
 <br/>
 
+### 10. Starting the Listeners
+
+```
+CREATE TICKET
+CREATE ORDER
+```
+
+<br/>
+
+![Application](/img/pic-21-04.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
