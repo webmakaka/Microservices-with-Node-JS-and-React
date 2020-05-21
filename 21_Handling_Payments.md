@@ -71,6 +71,34 @@ CREATE ORDER
 
 <br/>
 
+![Application](/img/pic-21-05.png?raw=true)
+
+<br/>
+
+### 11. Payments Flow with Stripe
+
+<br/>
+
+![Application](/img/pic-21-06.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-21-07.png?raw=true)
+
+<br/>
+
+### 12. Implementing the Create Charge Handler
+
+<br/>
+
+![Application](/img/pic-21-08.png?raw=true)
+
+<br/>
+
+
+
+<br/>
+
 ---
 
 <br/>
