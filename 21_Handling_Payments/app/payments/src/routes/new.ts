@@ -5,6 +5,8 @@ import {
   validateRequest,
   BadRequstError,
   NotFoundError,
+  NotAuthorizedError,
+  OrderStatusEnum,
 } from '@grider-ms-tickets/common';
 import { Order } from '../models/Order';
 
@@ -15,7 +17,23 @@ router.post(
   [body('token').not().isEmpty(), body('orderId').not().isEmpty()],
   validateRequest,
   async (req: Request, res: Response) => {
-    res.send({ success: true });
+    const { token, orderId } = req.body;
+
+    const order = await Order.findById(orderId);
+
+    if (!order) {
+      throw new NotFoundError();
+    }
+
+    if (order.userId !== req.currentUser!.id) {
+      throw new NotAuthorizedError();
+    }
+
+    if (order.status === OrderStatusEnum.Cancelled) {
+      throw new BadRequstError('Cannot pay for an cancelled order');
+    }
+
+    return res.send({ success: true });
   }
 );
 

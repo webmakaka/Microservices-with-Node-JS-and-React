@@ -95,7 +95,17 @@ CREATE ORDER
 
 <br/>
 
+### 13. Validating Order Payment
 
+<br/>
+
+### 14. Testing Order Validation Before Payment
+
+<br/>
+
+### 15. Testing Same-User Validation
+
+<br/>
 
 <br/>
 
