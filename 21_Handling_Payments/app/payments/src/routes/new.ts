@@ -34,9 +34,6 @@ router.post(
       throw new BadRequstError('Cannot pay for an cancelled order');
     }
 
-    console.log('process.env.STRIPE_KEY');
-    console.log(process.env.STRIPE_KEY);
-
     await stripe.charges.create({
       currency: 'usd',
       amount: order.price * 100,

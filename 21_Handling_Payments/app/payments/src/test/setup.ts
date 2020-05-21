@@ -13,6 +13,8 @@ declare global {
 jest.setTimeout(10000);
 jest.mock('../NatsWrapper');
 
+process.env.STRIPE_KEY = '<YOUR_STRIPE_PRIVATE_SECRET>';
+
 let mongo: any;
 
 beforeAll(async () => {
