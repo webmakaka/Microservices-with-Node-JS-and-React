@@ -194,6 +194,29 @@ $ curl \
 
 <br/>
 
+### 26. Publishing a Payment Created Event
+
+<br/>
+
+![Application](/img/pic-21-11.png?raw=true)
+
+<br/>
+
+    $ cd payments
+    $ npm update @grider-ms-tickets/common
+
+<br/>
+
+    $ cd orders
+    $ npm update @grider-ms-tickets/common
+
+<br/>
+
+    $ cd tickets
+    $ npm update @grider-ms-tickets/common
+
+<br/>
+
 ---
 
 <br/>
