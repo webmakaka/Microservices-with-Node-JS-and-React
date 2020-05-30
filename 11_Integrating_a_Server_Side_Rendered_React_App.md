@@ -32,7 +32,7 @@
 
 ### 05. Running Next in Kubernetes
 
-If chome will block for security reasons, type: **thisisunsafe**
+If chome will block page for security reasons, type: **thisisunsafe**
 
 browser --> https://ticketing.dev/
 
