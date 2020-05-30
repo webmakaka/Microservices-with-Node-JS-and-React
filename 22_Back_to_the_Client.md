@@ -32,6 +32,14 @@ If chome will block page for security reasons, type: **thisisunsafe**
 
 <br/>
 
+### 04. Scaffolding a Form
+
+<br/>
+
+### 05. Sanitizing Price Input
+
+<br/>
+
 ---
 
 <br/>
