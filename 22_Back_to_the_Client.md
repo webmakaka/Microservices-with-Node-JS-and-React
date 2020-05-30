@@ -16,6 +16,14 @@ If chome will block page for security reasons, type: **thisisunsafe**
 
 <br/>
 
+### 02. Reminder on Data Fetching with Next
+
+<br/>
+
+### 03. Two Quick Fixes
+
+<br/>
+
 ---
 
 <br/>
