@@ -95,6 +95,22 @@ If chome will block page for security reasons, type: **thisisunsafe**
 
 <br/>
 
+### 17. Filtering Reserved Tickets
+
+<br/>
+
+### 18. Header Links
+
+<br/>
+
+### 19. Rendering a List of Orders
+
+<br/>
+
+![Application](/img/pic-22-05.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
