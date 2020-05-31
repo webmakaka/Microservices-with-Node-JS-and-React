@@ -1,7 +1,7 @@
 name: tests-auth
 
 on:
-  [push, pull_request]:
+  push:
     paths:
       - '23_CI_CD/app/auth/**'
 
