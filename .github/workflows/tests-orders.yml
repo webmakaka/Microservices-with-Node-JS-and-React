@@ -1,8 +1,9 @@
 name: tests-orders
 
-on: [push, pull_request]:
-  paths:
-    - '23_CI_CD/app/orders/**'
+on:
+  [push, pull_request]:
+    paths:
+      - '23_CI_CD/app/orders/**'
 
 jobs:
   build:

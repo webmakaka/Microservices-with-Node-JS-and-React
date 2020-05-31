@@ -1,8 +1,9 @@
 name: tests-payments
 
-on: [push, pull_request]:
-  paths:
-    - '23_CI_CD/app/payments/**'
+on:
+  [push, pull_request]:
+    paths:
+      - '23_CI_CD/app/payments/**'
 
 jobs:
   build:
