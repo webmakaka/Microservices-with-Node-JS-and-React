@@ -44,6 +44,14 @@ If chome will block page for security reasons, type: **thisisunsafe**
 
 <br/>
 
+### 07. Listing All Tickets
+
+<br/>
+
+![Application](/img/pic-22-03.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
