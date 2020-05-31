@@ -64,6 +64,25 @@ If chome will block page for security reasons, type: **thisisunsafe**
 
 <br/>
 
+### 10. Programmatic Navigation to Wildcard Routess
+
+<br/>
+
+### 11. The Expiration Timer
+
+<br/>
+
+### 12. Displaying the Expiration
+
+<br/>
+
+### 13. Showing a Stripe Payment Form
+
+    $ cd client
+    $ npm install react-stripe-checkout
+
+<br/>
+
 ---
 
 <br/>
