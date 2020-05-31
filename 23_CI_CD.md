@@ -26,7 +26,17 @@
 
 ### 04. Adding a CI Test Script
 
+<br/>
 
+### 05. Running Tests on PR Creation
+
+<br/>
+
+### 06. Output of Failing Tests
+
+<br/>
+
+### 07. Running Tests in Parallel
 
 <br/>
 

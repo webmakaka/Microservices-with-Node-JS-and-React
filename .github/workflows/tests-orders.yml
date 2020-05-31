@@ -1,4 +1,4 @@
-name: tests
+name: tests-orders
 
 on: [push, pull_request]
 
@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - run: cd 23_CI_CD/app/auth && npm install && npm run test:ci
+      - run: cd 23_CI_CD/app/orders && npm install && npm run test:ci
