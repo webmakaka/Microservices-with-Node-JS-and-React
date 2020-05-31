@@ -83,6 +83,18 @@ If chome will block page for security reasons, type: **thisisunsafe**
 
 <br/>
 
+### 14. Configuring Stripe
+
+<br/>
+
+### 15. Test Credit Card Numbers
+
+<br/>
+
+### 16. Paying for an Order
+
+<br/>
+
 ---
 
 <br/>
