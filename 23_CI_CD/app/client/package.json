@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-stripe-checkout": "^2.6.3"
+  }
+}
