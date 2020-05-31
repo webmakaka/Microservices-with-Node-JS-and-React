@@ -40,6 +40,14 @@
 
 <br/>
 
+### 08. Verifying a Test Run
+
+<br/>
+
+### 09. Selective Test Execution
+
+<br/>
+
 ---
 
 <br/>
