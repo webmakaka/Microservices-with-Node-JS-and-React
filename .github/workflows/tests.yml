@@ -1,0 +1,12 @@
+name: tests
+
+on: 
+  [push, pull_request]
+    
+jobs: 
+    build:
+      runs-on: ubuntu-18.04
+      steps:
+        - uses: actions/checkout@v2
+        - run: cd 22_Back_to_the_Client/app/auth && npm install && npm run test:ci
+       
