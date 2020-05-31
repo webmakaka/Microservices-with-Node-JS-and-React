@@ -68,6 +68,8 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 ### [22. Back to the Client](./22_Back_to_the_Client.md)
 
+### [23. CI/CD](./23_CI_CD.md)
+
 <br/>
 
 ---
