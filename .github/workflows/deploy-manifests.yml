@@ -1,0 +1,19 @@
+name: deploy-manifests
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '23_CI_CD/k8s/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: digitalocean/actions-doctl@v2
+        with:
+          token: ${{secretes.DIGITAL_OCEAN_ACCESS_TOKEN}}
+      - run: doctl kubernetes cluster kubeconfig save <kubernetes_cluster_name>
+      - run: kubectl apply -f 23_CI_CD/k8s/common && kubectl apply -f 23_CI_CD/k8s/prod

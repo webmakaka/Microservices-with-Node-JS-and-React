@@ -3,7 +3,8 @@ kind: Config
 deploy:
   kubectl:
     manifests:
-      - ../k8s/*
+      - ../k8s/common/*
+      - ../k8s/dev/*
 build:
   local:
     push: true

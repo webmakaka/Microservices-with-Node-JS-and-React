@@ -1,0 +1,25 @@
+name: deploy-orders
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '23_CI_CD/app/orders/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: cd 23_CI_CD/app/orders && docker build -t webmakaka/grider-ms-app2-final-orders .
+      - run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+        env:
+          DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}}
+          DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+      - run: docker push webmakaka/grider-ms-app2-final-orders
+      - uses: digitalocean/actions-doctl@v2
+        with:
+          token: ${{secretes.DIGITAL_OCEAN_ACCESS_TOKEN}}
+      - run: doctl kubernetes cluster kubeconfig save <kubernetes_cluster_name>
+      - run: kubectl rollout restart deployment orders-depl
