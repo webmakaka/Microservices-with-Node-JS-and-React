@@ -16,7 +16,119 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 <br/>
 
-## Development
+## How to run the final app2
+
+I am working in ubuntu linux 18.04.
+
+Minikube, Docker, Skaffold should be installed.
+
+<br/>
+
+### Skaffold installation
+
+    $ curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/latest/skaffold-linux-amd64
+
+    $ chmod +x skaffold
+    $ sudo mv skaffold /usr/local/bin
+
+<br/>
+
+### Run app in minikube
+
+```
+$ {
+minikube --profile my-profile config set memory 8192
+minikube --profile my-profile config set cpus 4
+
+// minikube --profile my-profile config set vm-driver virtualbox
+minikube --profile my-profile config set vm-driver docker
+
+minikube --profile my-profile config set kubernetes-version v1.18.2
+minikube start --profile my-profile
+}
+```
+
+<br/>
+
+    // Enable ingress
+    $ minikube addons --profile my-profile enable ingress
+
+<br/>
+
+    $ minikube --profile my-profile ip
+    172.17.0.2
+
+<br/>
+
+    $ sudo vi /etc/hosts
+
+```
+#---------------------------------------------------------------------
+# Minikube
+#---------------------------------------------------------------------
+172.17.0.2 ticketing.dev
+```
+
+<br/>
+
+    $ kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
+
+    // <STRIPE_SECRET_KEY> from stripe.com
+    $ kubectl create secret generic stripe-secret --from-literal=STRIPE_KEY=<STRIPE_SECRET_KEY>
+
+<br/>
+
+    $ cd 22_Back_to_the_Client
+    $ cd skaffold
+
+    $ docker login
+
+Need update webmakaka/grider-ms-app2\*\*\* on your data in the scripts
+
+    $ skaffold dev
+
+<br/>
+
+    $ kubectl get pods
+    NAME                                           READY   STATUS    RESTARTS   AGE
+    auth-deployment-57d779fd9-48s9v                1/1     Running   0          24s
+    auth-mongo-deployment-579c6dbd8f-69jbv         1/1     Running   0          23s
+    client-deployment-f5cfc5b8d-k2lxp              1/1     Running   0          23s
+    expiration-deployment-6bb67856b4-jkkbl         1/1     Running   0          23s
+    expiration-redis-deployment-5b58b869fd-hmq5f   1/1     Running   0          23s
+    nats-deployment-76479997ff-lpss8               1/1     Running   0          23s
+    orders-deployment-5c68dff5c9-dq6hl             1/1     Running   0          23s
+    orders-mongo-deployment-6896c8b9-42vpd         1/1     Running   0          23s
+    payments-deployment-68d4c7f4ff-nfsxb           1/1     Running   0          23s
+    payments-mongo-deployment-c89cb4fc7-4ggn7      1/1     Running   0          23s
+    tickets-deployment-7b746fff9-tvhzw             1/1     Running   0          23s
+    tickets-mongo-deployment-54f456bd95-hv9fb      1/1     Running   0          22s
+
+<br/>
+
+chrome browser --> https://ticketing.dev/
+
+<br/>
+
+type: **thisisunsafe** in window with security warning.
+
+<br/>
+
+Expected result:
+
+![Application](/img/pic-final-01.png?raw=true)
+
+<br/>
+
+### Delete minikube with project
+
+    $ minikube --profile my-profile stop && minikube --profile my-profile delete
+
+<hr/>
+
+<br/>
+
+## Development step by step
 
 <br/>
 
