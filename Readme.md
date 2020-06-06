@@ -16,7 +16,7 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 <br/>
 
-## How to run the final app2
+## How to run apps
 
 I am working in ubuntu linux 18.04.
 
@@ -33,7 +33,7 @@ Minikube, Docker, Skaffold should be installed.
 
 <br/>
 
-### Run app in minikube
+### Run minikube
 
 ```
 $ {
