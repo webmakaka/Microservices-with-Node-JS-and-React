@@ -83,7 +83,7 @@ minikube start --profile my-profile
 
     $ docker login
 
-Need update webmakaka/grider-ms-app2\*\*\* on your data in the scripts
+Need to update my docker image name webmakaka/grider-ms-app2\*\*\* to your in scripts from skaffold and k8s folders.
 
     $ skaffold dev
 
@@ -110,7 +110,7 @@ chrome browser --> https://ticketing.dev/
 
 <br/>
 
-type: **thisisunsafe** in window with security warning.
+type: **thisisunsafe** in the browser window with security warning.
 
 <br/>
 
