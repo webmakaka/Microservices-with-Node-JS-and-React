@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: client
-          image: webmakaka/grider-ms-client
+          image: webmakaka/grider-ms-app1-client

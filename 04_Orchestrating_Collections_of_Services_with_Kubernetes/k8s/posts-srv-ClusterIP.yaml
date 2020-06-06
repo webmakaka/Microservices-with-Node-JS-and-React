@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: posts-srv
+  name: posts-svc
 spec:
   selector:
     app: posts

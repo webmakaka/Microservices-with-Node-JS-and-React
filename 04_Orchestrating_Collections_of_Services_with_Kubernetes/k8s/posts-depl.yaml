@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: posts
-          image: webmakaka/grider-ms-posts
+          image: webmakaka/grider-ms-app1-posts

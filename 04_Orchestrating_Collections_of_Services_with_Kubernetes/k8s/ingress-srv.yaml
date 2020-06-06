@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
-  name: ingress-srv
+  name: ingress-svc
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/use-regex: 'true'
@@ -12,17 +12,17 @@ spec:
         paths:
           - path: /posts/create
             backend:
-              serviceName: posts-srv
+              serviceName: posts-svc
               servicePort: 4000
           - path: /posts
             backend:
-              serviceName: query-srv
+              serviceName: query-svc
               servicePort: 4002
           - path: /posts/?(.*)/comments
             backend:
-              serviceName: comments-srv
+              serviceName: comments-svc
               servicePort: 4001
           - path: /?(.*)
             backend:
-              serviceName: client-srv
+              serviceName: client-svc
               servicePort: 3000

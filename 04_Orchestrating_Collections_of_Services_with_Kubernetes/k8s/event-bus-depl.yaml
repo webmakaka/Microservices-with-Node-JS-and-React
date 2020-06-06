@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: event-bus
-          image: webmakaka/grider-ms-event-bus
+          image: webmakaka/grider-ms-app1-event-bus
