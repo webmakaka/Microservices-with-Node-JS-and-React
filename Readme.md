@@ -20,7 +20,7 @@ https://www.udemy.com/course/microservices-with-node-js-and-react/
 
 I am working in ubuntu linux 18.04.
 
-Minikube, Docker, Skaffold should be installed.
+Minikube, Kubectl, Docker, Skaffold should be installed.
 
 <br/>
 
