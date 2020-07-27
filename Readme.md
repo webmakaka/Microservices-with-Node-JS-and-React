@@ -2,16 +2,6 @@
 
 ## Build, deploy, and scale an E-Commerce app using Microservices built with Node, React, Docker and Kubernetes
 
-https://www.udemy.com/course/microservices-with-node-js-and-react/
-
-<br/>
-
-**If this course is expensive for you. Try to find a coupon in the internet.**
-
-<br/>
-
-![Application](/img/pic-00-01.png?raw=true)
-
 <hr/>
 
 <br/>
