@@ -172,5 +172,5 @@ CREATE ORDER
 
 **Marley**
 
-Any questions on eng: https://jsdev.org/chat/  
-Любые вопросы на русском: https://jsdev.ru/chat/
+Any questions in english: <a href="https://jsdev.org/chat/">Telegram Chat</a>  
+Любые вопросы на русском: <a href="https://jsdev.ru/chat/">Телеграм чат</a>
