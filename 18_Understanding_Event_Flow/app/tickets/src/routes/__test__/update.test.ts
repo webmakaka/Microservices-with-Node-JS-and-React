@@ -1,6 +1,6 @@
+import mongoose from 'mongoose';
 import request from 'supertest';
 import { app } from '../../app';
-import mongoose from 'mongoose';
 import { natsWrapper } from '../../NatsWrapper';
 
 it('return a 404 if the provided id does not exist', async () => {
@@ -129,5 +129,5 @@ it('publishes an event', async () => {
     })
     .expect(200);
 
-  expect(natsWrapper.client.publish).toHaveBeenCalled;
+  expect(natsWrapper.client.publish).toHaveBeenCalled();
 });

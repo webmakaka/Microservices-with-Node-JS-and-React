@@ -1,8 +1,8 @@
 import mongoose from 'mongoose';
 import request from 'supertest';
 import { app } from '../../app';
-import { natsWrapper } from '../../NatsWrapper';
 import { Ticket } from '../../models/Ticket';
+import { natsWrapper } from '../../NatsWrapper';
 
 it('return a 404 if the provided id does not exist', async () => {
   const id = mongoose.Types.ObjectId().toHexString();
@@ -130,7 +130,7 @@ it('publishes an event', async () => {
     })
     .expect(200);
 
-  expect(natsWrapper.client.publish).toHaveBeenCalled;
+  expect(natsWrapper.client.publish).toHaveBeenCalled();
 });
 
 it('rejects updates if the ticket is reserved', async () => {
