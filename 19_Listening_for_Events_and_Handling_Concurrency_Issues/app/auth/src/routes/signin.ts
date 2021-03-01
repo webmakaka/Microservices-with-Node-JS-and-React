@@ -2,7 +2,7 @@ import express, { Request, Response } from 'express';
 import { body } from 'express-validator';
 import jwt from 'jsonwebtoken';
 
-import { validateRequest, BadRequstError } from '@grider-ms-tickets/common';
+import { validateRequest, BadRequestError } from '@grider-ms-tickets/common';
 
 import { User } from '../models/User';
 import { Password } from '../services/password';
@@ -24,7 +24,7 @@ router.post(
     const existingUser = await User.findOne({ email });
 
     if (!existingUser) {
-      throw new BadRequstError('Invalid credentials');
+      throw new BadRequestError('Invalid credentials');
     }
 
     const passwordsMatch = await Password.compare(
@@ -33,7 +33,7 @@ router.post(
     );
 
     if (!passwordsMatch) {
-      throw new BadRequstError('Invalid credentials');
+      throw new BadRequestError('Invalid credentials');
     }
 
     const userJwt = jwt.sign(

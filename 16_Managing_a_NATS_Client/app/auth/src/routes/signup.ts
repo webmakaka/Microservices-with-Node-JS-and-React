@@ -2,7 +2,7 @@ import express, { Request, Response } from 'express';
 import { body } from 'express-validator';
 import jwt from 'jsonwebtoken';
 
-import { validateRequest, BadRequstError } from '@grider-ms-tickets/common';
+import { validateRequest, BadRequestError } from '@grider-ms-tickets/common';
 
 import { User } from '../models/User';
 
@@ -23,7 +23,7 @@ router.post(
     const existingUser = await User.findOne({ email });
 
     if (existingUser) {
-      throw new BadRequstError('Email in use');
+      throw new BadRequestError('Email in use');
     }
 
     const user = User.build({

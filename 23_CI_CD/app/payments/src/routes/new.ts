@@ -3,7 +3,7 @@ import { body } from 'express-validator';
 import {
   requireAuth,
   validateRequest,
-  BadRequstError,
+  BadRequestError,
   NotFoundError,
   NotAuthorizedError,
   OrderStatusEnum,
@@ -34,7 +34,7 @@ router.post(
     }
 
     if (order.status === OrderStatusEnum.Cancelled) {
-      throw new BadRequstError('Cannot pay for an cancelled order');
+      throw new BadRequestError('Cannot pay for an cancelled order');
     }
 
     const charge = await stripe.charges.create({

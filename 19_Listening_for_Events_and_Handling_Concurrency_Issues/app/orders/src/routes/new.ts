@@ -5,7 +5,7 @@ import {
   validateRequest,
   NotFoundError,
   OrderStatusEnum,
-  BadRequstError,
+  BadRequestError,
 } from '@grider-ms-tickets/common';
 import { body } from 'express-validator';
 import { Ticket } from '../models/Ticket';
@@ -40,7 +40,7 @@ router.post(
     const isReserved = await ticket.isReserved();
 
     if (isReserved) {
-      throw new BadRequstError('Ticket is already reserved');
+      throw new BadRequestError('Ticket is already reserved');
     }
 
     const expiration = new Date();
