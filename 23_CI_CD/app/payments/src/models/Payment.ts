@@ -12,7 +12,7 @@ interface PaymentDoc extends mongoose.Document {
   stripeId: string;
 }
 
-interface PaymentModle extends mongoose.Model<PaymentDoc> {
+interface PaymentModule extends mongoose.Model<PaymentDoc> {
   build(attrs: PaymentAttrs): PaymentDoc;
 }
 
@@ -41,7 +41,7 @@ paymentSchema.statics.build = (attrs: PaymentAttrs) => {
   return new Payment(attrs);
 };
 
-const Payment = mongoose.model<PaymentDoc, PaymentModle>(
+const Payment = mongoose.model<PaymentDoc, PaymentModule>(
   'Payment',
   paymentSchema
 );

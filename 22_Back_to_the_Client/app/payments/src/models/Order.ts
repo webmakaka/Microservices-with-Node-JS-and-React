@@ -17,7 +17,7 @@ interface OrderDoc extends mongoose.Document {
   status: OrderStatusEnum;
 }
 
-interface OrderModle extends mongoose.Model<OrderDoc> {
+interface OrderModule extends mongoose.Model<OrderDoc> {
   build(attrs: OrderAttrs): OrderDoc;
 }
 
@@ -59,6 +59,6 @@ orderSchema.statics.build = (attrs: OrderAttrs) => {
   });
 };
 
-const Order = mongoose.model<OrderDoc, OrderModle>('Order', orderSchema);
+const Order = mongoose.model<OrderDoc, OrderModule>('Order', orderSchema);
 
 export { Order };
