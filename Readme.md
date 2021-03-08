@@ -2,6 +2,10 @@
 
 ## Build, deploy, and scale an E-Commerce app using Microservices built with Node, React, Docker and Kubernetes
 
+<br/>
+
+### [My Updatable Version of the final project from this course](https://github.com/webmakaka/Microservices-with-Node-JS-and-React-Improved)
+
 <hr/>
 
 <br/>
